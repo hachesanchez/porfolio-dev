@@ -9,9 +9,14 @@ const Footer = () => {
         <>
             <div className='Footer'>
                 <Container>
-                    <h1 className='Footer-text'>
-                        Footer
+
+                    <h1 className='Footer-title'>
+                        SAY HELLO
+                        <br />
+                        <br />
+                        helena.sangar@fmail.com
                     </h1>
+                    <hr className='hr' />
                 </Container>
             </div>
         </>

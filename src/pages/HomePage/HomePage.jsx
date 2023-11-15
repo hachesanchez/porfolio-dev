@@ -5,7 +5,10 @@ import OverTheYears from "../../components/HomePage/OverTheYears"
 import Skills from "../../components/HomePage/Skills"
 import Background from "../../components/HomePage/Background"
 import MyProjects from "../../components/HomePage/MyProjects"
+import { Row, Col } from 'react-bootstrap'
+
 import './HomePage.css'
+
 
 
 const HomePage = () => {
@@ -15,13 +18,21 @@ const HomePage = () => {
         <>
 
             <div className="home-page">
+
                 <Hero />
                 <Word />
                 <OverTheYears />
                 <Education />
-                <Skills />
-                <Background />
+                <Row className="skills-background">
+                    <Col md={6} className="skills-col">
+                        <Skills />
+                    </Col>
+                    <Col md={6}>
+                        <Background />
+                    </Col>
+                </Row>
                 <MyProjects />
+
             </div>
 
         </>

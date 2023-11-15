@@ -9,9 +9,11 @@ const MyProjects = () => {
         <>
             <div className='MyProjects'>
                 <Container>
-                    <h1 className='MyProjects-text'>
-                        MyProjects
+
+                    <h1 className='MyProjects-title'>
+                        my projects
                     </h1>
+
                 </Container>
             </div>
         </>

@@ -1,4 +1,19 @@
  .Skills {
      background-color: #ccf381;
-     padding: 50px 20px;
+     text-align: right;
+     /* padding: 200px 20px; */
+ }
+
+ .skill-title {
+     font-size: 18px;
+     font-weight: 250;
+     color: rgba(72, 49, 212, 1);
+     margin-bottom: 30px;
+     margin-top: 30px;
+ }
+
+ .skill-text {
+     font-size: 17px;
+     font-weight: 650;
+     color: rgba(72, 49, 212, 1);
  }
