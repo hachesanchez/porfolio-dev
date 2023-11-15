@@ -1,4 +1,12 @@
-import Hero from "../../components/Hero"
+import Hero from "../../components/HomePage/Hero"
+import Word from "../../components/HomePage/Word"
+import Education from "../../components/HomePage/Education"
+import OverTheYears from "../../components/HomePage/OverTheYears"
+import Skills from "../../components/HomePage/Skills"
+import Background from "../../components/HomePage/Background"
+import MyProjects from "../../components/HomePage/MyProjects"
+import './HomePage.css'
+
 
 const HomePage = () => {
 
@@ -6,20 +14,15 @@ const HomePage = () => {
 
         <>
 
-            <h2>
+            <div className="home-page">
                 <Hero />
-                <>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, aut! Eligendi autem labore architecto dolore voluptas quibusdam facilis qui reprehenderit libero consectetur odit perferendis, aliquam culpa temporibus obcaecati ea doloremque?</>
-                <>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, aut! Eligendi autem labore architecto dolore voluptas quibusdam facilis qui reprehenderit libero consectetur odit perferendis, aliquam culpa temporibus obcaecati ea doloremque?</>
-                <>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, aut! Eligendi autem labore architecto dolore voluptas quibusdam facilis qui reprehenderit libero consectetur odit perferendis, aliquam culpa temporibus obcaecati ea doloremque?</>
-                <>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, aut! Eligendi autem labore architecto dolore voluptas quibusdam facilis qui reprehenderit libero consectetur odit perferendis, aliquam culpa temporibus obcaecati ea doloremque?</>
-                <>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, aut! Eligendi autem labore architecto dolore voluptas quibusdam facilis qui reprehenderit libero consectetur odit perferendis, aliquam culpa temporibus obcaecati ea doloremque?</>
-                <>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, aut! Eligendi autem labore architecto dolore voluptas quibusdam facilis qui reprehenderit libero consectetur odit perferendis, aliquam culpa temporibus obcaecati ea doloremque?</>
-                <>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, aut! Eligendi autem labore architecto dolore voluptas quibusdam facilis qui reprehenderit libero consectetur odit perferendis, aliquam culpa temporibus obcaecati ea doloremque?</>
-                <>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, aut! Eligendi autem labore architecto dolore voluptas quibusdam facilis qui reprehenderit libero consectetur odit perferendis, aliquam culpa temporibus obcaecati ea doloremque?</>
-                <>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, aut! Eligendi autem labore architecto dolore voluptas quibusdam facilis qui reprehenderit libero consectetur odit perferendis, aliquam culpa temporibus obcaecati ea doloremque?</>
-                <>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, aut! Eligendi autem labore architecto dolore voluptas quibusdam facilis qui reprehenderit libero consectetur odit perferendis, aliquam culpa temporibus obcaecati ea doloremque?</>
-
-            </h2>
+                <Word />
+                <OverTheYears />
+                <Education />
+                <Skills />
+                <Background />
+                <MyProjects />
+            </div>
 
         </>
     )

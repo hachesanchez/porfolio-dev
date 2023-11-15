@@ -9,9 +9,12 @@ const Hero = () => {
         <>
             <div className='hero'>
                 <Container>
-                    <h1 className='hero-text'>
-                        web-dev-ops
+                    <h1 className='hero-title'>
+                        web - dev - ops
                     </h1>
+                    <p className='hero-text'>
+                        hello! my name is Helena and I'm really excited to have you around!
+                    </p>
                 </Container>
             </div>
         </>
