@@ -3,6 +3,7 @@ import './App.css'
 import AppRoutes from "./routes/AppRoutes"
 import Navigation from './components/Navigation/Navigation'
 import Footer from './components/Footer/Footer'
+import data from './../helena-porfolio.json'
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
     <>
 
       <Navigation />
-      <AppRoutes />
+      <AppRoutes data={data} />
       <Footer />
 
     </>

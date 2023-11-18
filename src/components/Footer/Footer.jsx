@@ -3,6 +3,7 @@ import './Footer.css'
 
 const Footer = () => {
 
+    const cvLink = 'https://drive.google.com/file/d/1YmPbe4XKqypA8FAxprPJM4ihZrXfvslL/view?usp=sharing'
 
     return (
 
@@ -10,13 +11,22 @@ const Footer = () => {
             <div className='Footer'>
                 <Container>
 
-                    <h1 className='Footer-title'>
+                    <p className='Footer-title'>
                         SAY HELLO
                         <br />
                         <br />
-                        helena.sangar@fmail.com
-                    </h1>
+                        helena.sangar@gmail.com
+                    </p>
                     <hr className='hr' />
+                    <a
+                        className="cv"
+                        href={cvLink}
+                        target='blank'
+                        rel="noopener noreferrer"
+                    >
+                        Review CV
+                    </a>
+
                 </Container>
             </div>
         </>

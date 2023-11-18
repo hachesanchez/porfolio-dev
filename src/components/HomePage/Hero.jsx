@@ -1,7 +1,8 @@
 import { Container } from 'react-bootstrap'
 import './Hero.css'
 
-const Hero = () => {
+const Hero = ({ data }) => {
+
 
 
     return (
@@ -13,7 +14,7 @@ const Hero = () => {
                         web - dev - ops
                     </h1>
                     <p className='hero-text'>
-                        hello! my name is Helena and I'm really excited to have you around!
+                        hello! my name is {data.username} and I'm really excited to have you around!
                     </p>
                 </Container>
             </div>

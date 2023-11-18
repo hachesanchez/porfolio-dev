@@ -2,11 +2,15 @@
      padding: 100px 20px;
  }
 
- .MyProjects-title {
+ .MyProjects-h1 {
      color: rgba(72, 49, 212, 1);
      font-size: 34px;
      font-weight: 700;
      background-color: #CCF381;
      display: inline;
 
+ }
+
+ .myrojects-title {
+     margin-bottom: 50px;
  }

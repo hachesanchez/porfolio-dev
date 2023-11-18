@@ -1,0 +1,31 @@
+.MyProjects-title {
+    margin-bottom: 30px;
+}
+
+.MyProjectsCards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 400px;
+    margin: 10px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.badge-custom {
+    opacity: 50%;
+}
+
+.link {
+    text-decoration: none;
+}

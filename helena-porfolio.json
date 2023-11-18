@@ -1,0 +1,241 @@
+{
+    "personalInfo": {
+        "username": "Helena",
+        "surname": "García",
+        "email": "helena.sangar@gmail.com",
+        "cvLink": "https://drive.google.com/file/d/1YmPbe4XKqypA8FAxprPJM4ihZrXfvslL/view?usp=sharing"
+    },
+    "projects": {
+        "elMegafono": {
+            "title": "El Megáfono",
+            "intro": "El Megáfono was my final fullstack MERN project for Ironhack's webDev bootcamp: A professional networking platform where individuals connect, showcase their work experiences, and interact with their potential employers: organizations from the third social sector.",
+            "description": [
+                {
+                    "subtitle": "Back-end",
+                    "content": [
+                        "In the back-end of El Megáfono application, I built a RESTful API using Node.js...",
+                        "I designed and created data models using Mongoose, defining the structure...",
+                        "I implemented authentication and authorization using JSON Web Tokens (JWT)..."
+                    ]
+                },
+                {
+                    "subtitle": "Front-end",
+                    "content": [
+                        "In the front-end of El Megáfono application, I used React.js as the JavaScript library...",
+                        "I divided the user interface into reusable components, enabling me to maintain clean and modular code...",
+                        "In addition to the technologies mentioned above, I used other tools to enhance the application's functionality..."
+                    ]
+                },
+                {
+                    "subtitle": "Deployment and more",
+                    "content": [
+                        "I used Git as the version control system to collaborate on development...",
+                        "Then, I used the deployment platforms Netlify and Fly to deploy the application...",
+                        "With Fly's deployment, a Dockerfile is created to build a Docker image containing the Node.js application..."
+                    ]
+                }
+            ],
+            "link": "https://elmegafono.netlify.app/",
+            "repository": {
+                "client": "https://github.com/hachesanchez/El-Megafono-client",
+                "server": "https://github.com/hachesanchez/El-Megafono-server"
+            },
+            "technologies": [
+                "NodeJs",
+                "React"
+            ]
+        },
+        "flatRentOdyssey": {
+            "title": "2023: A Flat Rent Odyssey",
+            "intro": [
+                "This is a simple video game that I developed with a teammate, using the JavaScript Canvas technology, as our first project of Ironhack's webDev bootcamp. ",
+                "You can play using: : ←, →, ↑, a, d"
+            ],
+            "description": [
+                {
+                    "subtitle": "Technology Used",
+                    "content": [
+                        "We developed it using the HTML5 <canvas> element, which provides an API for drawing 2D graphics and animations, and JavaScript to implement the game's logic and manipulate the canvas elements."
+                    ]
+                },
+                {
+                    "subtitle": "Graphic Rendering",
+                    "content": [
+                        "The game uses the 2D context of the canvas to draw graphic elements such as the background, player, enemies, bullets, and other objects. Functions like fillRect(), fillText(), among others, are used to draw shapes and text on the canvas."
+                    ]
+                },
+                {
+                    "subtitle": "Animations",
+                    "content": [
+                        "Animations in the game are achieved by updating and redrawing the canvas at regular time intervals. This can be accomplished using the requestAnimationFrame() function or by using `setInterval()` to call a game update function at a specific frames-per-second (FPS) rate."
+                    ]
+                },
+                {
+                    "subtitle": "User Interaction",
+                    "content": [
+                        "User interaction is captured through keyboard events. For example, to move the player, keyboard events like `keydown` and `keyup` are used, and to fire bullets, the letters 'a' and 'd' are used."
+                    ]
+                },
+                {
+                    "subtitle": "Collisions",
+                    "content": [
+                        "The game implements collision detection between different elements, such as the player and enemies or bullets and enemies. These collisions are detected through checks of coordinate and size overlap of elements on the canvas."
+                    ]
+                },
+                {
+                    "subtitle": "Styles and Fonts",
+                    "content": [
+                        "Attributes like fillStyle, strokeStyle, lineWidth, font, etc., are used to apply different styles, colors, and fonts to the graphic elements on the canvas."
+                    ]
+                },
+                {
+                    "subtitle": "Optimization",
+                    "content": [
+                        "To avoid performance issues and excessive memory consumption, the game implements logic to remove elements that are no longer needed, such as bullets that have left the canvas, ensuring smooth and efficient operation."
+                    ]
+                },
+                {
+                    "subtitle": "Relative Coordinates",
+                    "content": [
+                        "The application uses relative positions and sizes to place elements on the canvas. This means that coordinates and dimensions are calculated based on the canvas's size, making the game more flexible and adaptable to different screen resolutions."
+                    ]
+                }
+            ],
+            "link": "https://hieronimous.github.io/2023-A-FLAT-RENT-OD/",
+            "repository": "https://github.com/Hieronimous/2023-A-FLAT-RENT-OD",
+            "technologies": [
+                "NodeJs",
+                "Canvas"
+            ]
+        },
+        "igaf": {
+            "title": "IGAF",
+            "intro": [
+                {
+                    "overview": "IGAF is a web-based platform designed to enhance the culinary experience for cooking enthusiasts. It serves as a dynamic recipe hub, offering a vast collection of recipes from various cuisines and dishes."
+                },
+                {
+                    "features": [
+                        {
+                            "title": "Discover and Explore",
+                            "description": "IGAF allows users to explore a wide range of recipes from different culinary traditions."
+                        },
+                        {
+                            "title": "Interactive Cooking",
+                            "description": "Unlike conventional recipe websites, IGAF offers an interactive cooking mode. Users can follow recipes with precision, adjust ingredient quantities, and track cooking times."
+                        },
+                        {
+                            "title": "Personalized Experience",
+                            "description": "IGAF lets users create profiles, enabling them to save favorite recipes and keep a cooking history."
+                        }
+                    ]
+                }
+            ],
+            "link": "https://igaf.fly.dev/",
+            "repository": "https://github.com/hachesanchez/igaf2.0",
+            "technologies": [
+                "NodeJs",
+                "Handlebars"
+            ],
+            "description": [
+                {
+                    "subtitle": "Backend Technologies",
+                    "content": [
+                        "IGAF's backend is powered by a set of technologies that ensure smooth functionality and user interactions."
+                    ]
+                },
+                {
+                    "subtitle": "Handlebars",
+                    "content": [
+                        "The backend relies on Handlebars, a templating engine that dynamically generates HTML content. It plays a vital role in creating and rendering dynamic web pages."
+                    ]
+                },
+                {
+                    "subtitle": "Node.js",
+                    "content": [
+                        "Node.js serves as the foundation of IGAF's backend. It manages server-side logic, facilitates user authentication, and enables communication between the client and server components of the application."
+                    ]
+                },
+                {
+                    "subtitle": "Database Management",
+                    "content": [
+                        "MongoDB, a NoSQL database, is used to efficiently store and retrieve data within IGAF. It is instrumental in managing user profiles, storing recipes, and supporting data-driven functionalities."
+                    ]
+                }
+            ]
+        }
+    },
+    "overTheYears": {
+        "title": "over the years",
+        "text": [
+            "I've recently embarked on an exciting journey of professional reinvention, transitioning into a full-stack MERN web developer, and really soon, into a DevOps engineer.",
+            "My journey began with an intensive nine-week bootcamp at Ironhack, Madrid. During this program, I dove headfirst into the world of web development, gaining proficiency in key technologies such as JavaScript, Node, Express, HTML, CSS, Bootstrap, MongoDB, and ReactJS.",
+            "My background is quite diverse; with a degree in journalism, I spent eight fulfilling years as a photographer and videographer, building my career between the corporate world and the social third sector. This unique blend of experiences has cultivated my creativity, adaptability, strong problem-solving skills, and a keen eye for detail."
+        ]
+    },
+    "background": {
+        "title": "There won't be success without diversity.",
+        "intro": "I strongly believe that progress involves collective learning and that value can be contributed from various places. This is what photography has given me:",
+        "skills": [
+            "Sense of responsibility",
+            "Organized workflow",
+            "Creativity",
+            "Leadership",
+            "Troubleshooting capacities",
+            "Versatility and continuous learning attitude"
+        ]
+    },
+    "education": {
+        "title": "education",
+        "courses": [
+            {
+                "school": "Ironhack",
+                "courseTitle": "Bootcamp - DevOps",
+                "info": "Oct 2023 - Dec 2023"
+            },
+            {
+                "school": "Academind",
+                "courseTitle": "Course - Docker & Kubernetes",
+                "info": "Jul 2023 - Oct 2023"
+            },
+            {
+                "school": "Ironhack",
+                "courseTitle": "Bootcamp - Fullstack Web Developer",
+                "info": "Apr 2023 - Jun 2023"
+            },
+            {
+                "school": "Google",
+                "courseTitle": "Course - Professional IT support certifications",
+                "info": "2022"
+            },
+            {
+                "school": "Edit",
+                "courseTitle": "Master - Design Thinking for business innovation",
+                "info": "2017-2018"
+            },
+            {
+                "school": "Rey Juan Carlos I University of Madrid",
+                "courseTitle": "Double degree - Journalism and Media",
+                "info": "2007-2012"
+            }
+        ]
+    },
+    "skills": [
+        {
+            "title": "DEVOPS",
+            "text": "Linux | Azure | Docker | Kubernetes | Ansible | Terraform | Prometheus | Grafana"
+        },
+        {
+            "title": "WEB",
+            "text": "JavaScript | Express | NodeJs | React | MongoDB | HTML | CSS | Git | Postman"
+        },
+        {
+            "title": "PHOTO",
+            "text": "Adobe Premiere | Final Cut Pro | Photoshop | Lightroom | Capture One | InDesign"
+        },
+        {
+            "title": "LANGUAGES",
+            "text": "Spanish (native) | English (professional) | French (advanced) | Italian (beginner) | Catalan (beginner)"
+        }
+    ]
+}

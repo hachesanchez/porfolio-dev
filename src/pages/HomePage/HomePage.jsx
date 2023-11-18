@@ -11,7 +11,9 @@ import './HomePage.css'
 
 
 
-const HomePage = () => {
+const HomePage = ({ data: { personalInfo, education, background, overTheYears, skills, projects } }) => {
+
+
 
     return (
 
@@ -19,19 +21,19 @@ const HomePage = () => {
 
             <div className="home-page">
 
-                <Hero />
+                <Hero data={personalInfo} />
                 <Word />
-                <OverTheYears />
-                <Education />
+                <OverTheYears data={overTheYears} />
+                <Education data={education} />
                 <Row className="skills-background">
                     <Col md={6} className="skills-col">
-                        <Skills />
+                        <Skills data={skills} />
                     </Col>
                     <Col md={6}>
-                        <Background />
+                        <Background data={background} />
                     </Col>
                 </Row>
-                <MyProjects />
+                <MyProjects data={projects} />
 
             </div>
 

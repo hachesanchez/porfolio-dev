@@ -31,26 +31,26 @@ const Navigation = () => {
                     <Nav className="ms-auto">
                         <Nav.Link href="#home">home</Nav.Link>
 
-                        <NavDropdown title="projects" id="basic-nav-dropdown" activeClassName='active'>
+                        <NavDropdown title="projects" id="basic-nav-dropdown" activeclassname='active'>
                             <NavDropdown.Item
                                 as={Link}
                                 to={'/el-megafono'}
                                 className='dropdown-item'
-                                activeClassName='active'
+                                activeclassname='active'
                             >El Megáfono
                             </NavDropdown.Item>
                             <NavDropdown.Item
                                 as={Link}
                                 to={'/igaf'}
                                 className='dropdown-item'
-                                activeClassName='active'
+                                activeclassname='active'
                             >IGAF
                             </NavDropdown.Item>
                             <NavDropdown.Item
                                 as={Link}
                                 to={'/2023-a-flat-rent-odyssey'}
                                 className='dropdown-item'
-                                activeClassName='active'
+                                activeclassname='active'
                             >2023: A Flat Rent Odyssey
                             </NavDropdown.Item>
                         </NavDropdown>
