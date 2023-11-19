@@ -1,5 +1,5 @@
 import Hero from "../../components/HomePage/Hero"
-import Word from "../../components/HomePage/Word"
+// import Word from "../../components/HomePage/Word"
 import Education from "../../components/HomePage/Education"
 import OverTheYears from "../../components/HomePage/OverTheYears"
 import Skills from "../../components/HomePage/Skills"
@@ -22,7 +22,7 @@ const HomePage = ({ data: { personalInfo, education, background, overTheYears, s
             <div className="home-page">
 
                 <Hero data={personalInfo} />
-                <Word />
+                {/* <Word /> */}
                 <OverTheYears data={overTheYears} />
                 <Education data={education} />
                 <Row className="skills-background">

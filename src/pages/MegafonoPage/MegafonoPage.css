@@ -1,0 +1,31 @@
+.title-megafono {
+    padding: 100px 50px;
+}
+
+@media (max-width: 575.98px) {
+
+    .title-megafono {
+        padding: 100px 20px;
+    }
+
+}
+
+.MegafonoPage-title {
+    color: rgba(72, 49, 212, 1);
+    font-size: 45px;
+    font-weight: 700;
+    background-color: #CCF381;
+    display: inline-flex;
+}
+
+@media (max-width: 575.98px) {
+
+    /* X-Small screens */
+    .MegafonoPage-title {
+        font-size: 33px;
+    }
+}
+
+.links-megafono {
+    background-color: #CCF381;
+}

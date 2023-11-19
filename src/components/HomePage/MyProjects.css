@@ -12,5 +12,10 @@
  }
 
  .myrojects-title {
-     margin-bottom: 50px;
+     margin-bottom: 70px;
+
+ }
+
+ .MyProjectsCards {
+     justify-content: center;
  }

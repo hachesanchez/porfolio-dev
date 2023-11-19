@@ -15,6 +15,7 @@ const MyProjects = ({ data }) => {
             <div className='MyProjects'>
 
                 <Container>
+
                     <div className='myrojects-title'>
                         <h1 className='MyProjects-h1'>
                             my proyects

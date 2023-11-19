@@ -29,7 +29,7 @@ const Navigation = () => {
 
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="#home">home</Nav.Link>
+                        <Nav.Link as={Link} to={'/'}>home</Nav.Link>
 
                         <NavDropdown title="projects" id="basic-nav-dropdown" activeclassname='active'>
                             <NavDropdown.Item
