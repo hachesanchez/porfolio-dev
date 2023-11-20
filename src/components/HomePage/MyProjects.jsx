@@ -1,6 +1,6 @@
 import { Container } from 'react-bootstrap'
 import MyProjectsCards from './MyProjectsCards'
-import odysseyImg from '../../assets/images/_2023 Flat/Start_OK.jpg'
+import odysseyImg from '../../assets/images/_2023 Flat/Odyssey-1.jpg'
 import megafonoImg from '../../assets/images/_El Megáfono_img/El Megágono-0.png'
 import igafImg from '../../assets/images/_IGAF/Igaf-1.png'
 import './MyProjects.css'

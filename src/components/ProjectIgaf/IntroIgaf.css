@@ -1,0 +1,17 @@
+.Igaf-intro-component {
+    padding: 50px 20px;
+    color: #3d155f;
+}
+
+.Igaf-intro-text {
+    color: #3d155f;
+}
+
+.igaf-features {
+    margin-left: 30px;
+}
+
+.igaf-feature-title {
+    font-weight: bold;
+    display: inline;
+}

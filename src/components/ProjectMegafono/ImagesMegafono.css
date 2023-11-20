@@ -1,0 +1,15 @@
+.megafono-images-component {
+    padding: 50px 20px;
+    background-color: #CCF381;
+    justify-content: center;
+}
+
+.megafono-images-container {
+    max-width: 1000px;
+}
+
+.megafono-carousel-images {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}

@@ -10,7 +10,7 @@ const Word = () => {
             < div className='word'>
                 <Container>
                     <h1 className='word-text'>
-                        Creatively curious
+                        CREATIVELYCURIOUS
                     </h1>
                 </Container>
             </ div>

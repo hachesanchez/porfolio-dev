@@ -1,10 +1,10 @@
 .word {
-    padding: 40px 20px 80px 20px;
+    padding: 40px 20px 40px 20px;
     /* top right bottom left */
 }
 
 .word-text {
     color: rgba(72, 49, 212, 1);
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 152px;
+    font-weight: 100;
 }

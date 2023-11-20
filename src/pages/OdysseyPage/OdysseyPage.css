@@ -1,0 +1,33 @@
+.title-Odyssey {
+    padding-top: 100px;
+    padding-left: 70px;
+}
+
+@media (max-width: 575.98px) {
+
+    .title-Odyssey {
+        padding-top: 100px;
+        padding-left: 30px
+    }
+
+}
+
+.OdysseyPage-title {
+    color: rgba(72, 49, 212, 1);
+    font-size: 45px;
+    font-weight: 700;
+    background-color: #CCF381;
+    display: inline-flex;
+}
+
+@media (max-width: 575.98px) {
+
+    /* X-Small screens */
+    .OdysseyPage-title {
+        font-size: 33px;
+    }
+}
+
+.links-Odyssey {
+    background-color: #CCF381;
+}

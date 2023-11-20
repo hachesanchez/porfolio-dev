@@ -1,5 +1,16 @@
-.links-container {}
+.megafono-links-component {
+    padding: 50px 20px;
+}
 
 .megafono-web {
     background-color: #CCF381;
+    margin-bottom: 20px;
+}
+
+.megafono-weblink {
+    font-weight: bold;
+}
+
+.megafono-repo-title {
+    font-weight: bold;
 }

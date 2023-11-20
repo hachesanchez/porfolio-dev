@@ -6,11 +6,15 @@ const IntroMegafono = ({ intro }) => {
     return (
 
         <>
-            <Container>
-                <p className="megafono-intro-text">
-                    {intro}
-                </p>
-            </Container>
+            <div className='megafono-intro-component'>
+                <Container>
+
+                    <p className="megafono-intro-text">
+                        {intro}
+                    </p>
+
+                </Container>
+            </div>
         </>
 
     )

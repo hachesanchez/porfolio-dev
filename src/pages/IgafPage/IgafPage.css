@@ -1,0 +1,33 @@
+.title-Igaf {
+    padding-top: 100px;
+    padding-left: 70px;
+}
+
+@media (max-width: 575.98px) {
+
+    .title-Igaf {
+        padding-top: 100px;
+        padding-left: 30px
+    }
+
+}
+
+.IgafPage-title {
+    color: rgba(72, 49, 212, 1);
+    font-size: 45px;
+    font-weight: 700;
+    background-color: #CCF381;
+    display: inline-flex;
+}
+
+@media (max-width: 575.98px) {
+
+    /* X-Small screens */
+    .IgafPage-title {
+        font-size: 33px;
+    }
+}
+
+.links-Igaf {
+    background-color: #CCF381;
+}

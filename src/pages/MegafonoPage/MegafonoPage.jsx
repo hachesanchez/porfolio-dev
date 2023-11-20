@@ -1,4 +1,3 @@
-import { Container } from 'react-bootstrap'
 import IntroMegafono from '../../components/ProjectMegafono/IntroMegafono'
 import DescriptionMegafono from '../../components/ProjectMegafono/DescriptionMegafono'
 import LinksMegafono from '../../components/ProjectMegafono/LinksMegafono'

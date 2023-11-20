@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom'
 import './LinksMegafono.css'
 import { Container } from 'react-bootstrap'
 
@@ -6,30 +5,54 @@ const LinksMegafono = ({ repository, link }) => {
 
     return (
 
-        <Container >
-            <div className='links-container' >
-                <div className="megafono-web">
-                    <a
-                        className="megafono-weblink"
-                        href={link}
-                        target='blank'
-                        rel="noopener noreferrer"
-                    >
-                        {link}
-                    </a>
-                </div>
-                <div className="megafono-repo">
-                    <h5>
-                        Repository:
-                    </h5>
-                    <ul>
-                        <li>Client: {repository.client} </li>
-                        <li>Server: {repository.server} </li>
+        <div className="megafono-links-component">
+            <Container >
 
-                    </ul>
-                </div >
-            </div>
-        </Container >
+                <div className='links-container' >
+                    <div className="megafono-web">
+                        <a
+                            className="megafono-weblink"
+                            href={link}
+                            target='blank'
+                            rel="noopener noreferrer"
+                        >
+                            {link}
+                        </a>
+                    </div>
+                    <div className="megafono-repo">
+                        <p className='megafono-repo-title'>
+                            Repository:
+                        </p>
+                        <ul>
+                            <li>
+                                Client:
+                                <a
+                                    className="megafono-webrepo"
+                                    href={repository.client}
+                                    target='blank'
+                                    rel="noopener noreferrer"
+                                >
+                                    {repository.client}
+                                </a>
+                            </li>
+                            <li>
+                                Server:
+                                <a
+                                    className="megafono-webrepo"
+                                    href={repository.server}
+                                    target='blank'
+                                    rel="noopener noreferrer"
+                                >
+                                    {repository.server}
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div >
+                </div>
+
+            </Container >
+        </div>
 
     )
 }

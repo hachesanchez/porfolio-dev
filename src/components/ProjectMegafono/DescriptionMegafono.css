@@ -1,0 +1,15 @@
+.megafono-description-component {
+    padding: 50px 20px;
+    margin-bottom: 100px;
+}
+
+.megafono-subtitle {
+    color: rgba(72, 49, 212, 1);
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.megafono-content {
+    color: #3d155f;
+}

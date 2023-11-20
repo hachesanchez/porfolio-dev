@@ -13,25 +13,23 @@
                 {
                     "subtitle": "Back-end",
                     "content": [
-                        "In the back-end of El Megáfono application, I built a RESTful API using Node.js...",
-                        "I designed and created data models using Mongoose, defining the structure...",
-                        "I implemented authentication and authorization using JSON Web Tokens (JWT)..."
+                        "In the back-end of El Megáfono application, I built a RESTful API using Node.js and the Express.js framework. I used Express.js to define the API routes and handle incoming HTTP requests. I connected the API to a MongoDB database, utilizing the MongoDB module for Node.js (mongoose), which allowed me to efficiently store and retrieve data.",
+                        "I designed and created data models using Mongoose, defining the structure and relationships between data. This enabled me to store relevant information, such as posts, users, and categories, and access it consistently and structured.",
+                        "I implemented authentication and authorization using JSON Web Tokens (JWT). When authenticating users, I generated a JWT token sent to the client and used for subsequent request authentication. This allowed me to protect API routes and resources, ensuring that only authenticated users had access to certain functionalities."
                     ]
                 },
                 {
                     "subtitle": "Front-end",
                     "content": [
-                        "In the front-end of El Megáfono application, I used React.js as the JavaScript library...",
-                        "I divided the user interface into reusable components, enabling me to maintain clean and modular code...",
-                        "In addition to the technologies mentioned above, I used other tools to enhance the application's functionality..."
+                        "In the front-end of El Megáfono application, I used React.js as the JavaScript library to build an interactive and responsive user interface. I divided the user interface into reusable components, enabling me to maintain clean and modular code. I used React Router for application routing, allowing routes definition and smooth navigation between different pages.",
+                        "I implemented services to handle data read and write operations. I used the Axios library to make HTTP requests to the back-end and efficiently retrieve and send data.",
+                        "In addition to the technologies mentioned above, I used other tools to enhance the application's functionality and user experience. For example, I used Cloudinary for image storage and manipulation, enabling me to upload and display images efficiently on the platform."
                     ]
                 },
                 {
                     "subtitle": "Deployment and more",
                     "content": [
-                        "I used Git as the version control system to collaborate on development...",
-                        "Then, I used the deployment platforms Netlify and Fly to deploy the application...",
-                        "With Fly's deployment, a Dockerfile is created to build a Docker image containing the Node.js application..."
+                        "I used Git as the version control system to collaborate on development and track code changes. Then, I used the deployment platforms Netlify and Fly to deploy the application. Netlify provided straightforward hosting and deployment for the front-end, leveraging its Git integration and file-based routing. For the back-end, I used Fly, a serverless deployment platform that allowed me to efficiently deploy the RESTful API and automatically scale based on demand. With Fly's deployment, a Dockerfile is created to build a Docker image containing the Node.js application. Build stages handle dependency installation, compilation of Node.js modules, and generating the necessary files. The final stage contains the application ready to run in a Docker container."
                     ]
                 }
             ],
@@ -117,15 +115,15 @@
                 {
                     "features": [
                         {
-                            "title": "Discover and Explore",
+                            "title": "Discover and Explore: ",
                             "description": "IGAF allows users to explore a wide range of recipes from different culinary traditions."
                         },
                         {
-                            "title": "Interactive Cooking",
+                            "title": "Interactive Cooking: ",
                             "description": "Unlike conventional recipe websites, IGAF offers an interactive cooking mode. Users can follow recipes with precision, adjust ingredient quantities, and track cooking times."
                         },
                         {
-                            "title": "Personalized Experience",
+                            "title": "Personalized Experience: ",
                             "description": "IGAF lets users create profiles, enabling them to save favorite recipes and keep a cooking history."
                         }
                     ]
