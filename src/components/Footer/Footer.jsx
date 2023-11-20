@@ -1,4 +1,7 @@
-import { Container } from 'react-bootstrap'
+import { Container, Col, Image } from 'react-bootstrap'
+import gitImg from './../../assets/icons/icon-git.png'
+import linkedinImg from './../../assets/icons/icon-LinkedIn.png'
+
 import './Footer.css'
 
 const Footer = () => {
@@ -26,6 +29,23 @@ const Footer = () => {
                     >
                         Review CV
                     </a>
+
+
+                    <div className="media-icons rounded-pill d-flex justify-content-start">
+                        <a
+                            href="https://www.linkedin.com/in/helena-garcia-webdev/"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <Image className="contact-icon" src={linkedinImg} alt="linkedin-icon" />
+                        </a>
+                        <a
+                            href="https://github.com/hachesanchez?tab=repositories"
+                            target="_blank"
+                            rel="noopener noreferrer">
+                            <Image className="contact-icon" src={gitImg} alt="git-icon" />
+                        </a>
+                    </div>
+
 
                 </Container>
             </div>

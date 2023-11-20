@@ -8,3 +8,19 @@
     font-size: 152px;
     font-weight: 100;
 }
+
+@media (max-width: 575.98px) {
+
+    /* X-Small screens */
+    .word-text {
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* Small screens */
+    .word-text {
+        font-size: 30px;
+    }
+}

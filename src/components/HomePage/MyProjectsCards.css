@@ -22,6 +22,14 @@
     object-fit: cover;
 }
 
+@media (max-width: 575.98px) {
+
+    /* X-Small screens */
+    .card-image {
+        height: 150px;
+    }
+}
+
 .badge-custom {
     opacity: 50%;
 }
