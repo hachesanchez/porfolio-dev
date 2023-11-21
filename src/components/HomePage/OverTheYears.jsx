@@ -1,31 +1,36 @@
-import React, { useState } from 'react';
-import { Container } from 'react-bootstrap';
-import './OverTheYears.css';
+import React, { useState } from "react";
+import { Container } from "react-bootstrap";
+import "./OverTheYears.css";
 
 const OverTheYears = ({ data: { title, text } }) => {
-    const [showFullContent, setShowFullContent] = useState(false);
+  const [showFullContent, setShowFullContent] = useState(false);
 
-    const toggleContent = () => {
-        setShowFullContent(!showFullContent);
-    };
+  const toggleContent = () => {
+    setShowFullContent(!showFullContent);
+  };
 
-    return (
-        <>
-            <div className='overTheYears' onClick={toggleContent} style={{ cursor: 'pointer' }}>
-                <Container>
-
-                    <h1 className='overTheYears-title'>
-                        {title}
-                    </h1>
-                    {showFullContent && text.map((e, idx) =>
-                        <p key={idx} className='overTheYears-text'>
-                            {e}
-                        </p>)}
-
-                </Container>
+  return (
+    <>
+      <div
+        className="overTheYears"
+        onClick={toggleContent}
+        style={{ cursor: "pointer" }}
+      >
+        <Container>
+          <h1 className="overTheYears-title">{title}</h1>
+          {showFullContent && (
+            <div className="expandingContainer">
+              {text.map((e, idx) => (
+                <p key={idx} className="overTheYears-text">
+                  {e}
+                </p>
+              ))}
             </div>
-        </>
-    );
+          )}
+        </Container>
+      </div>
+    </>
+  );
 };
 
 export default OverTheYears;
