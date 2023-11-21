@@ -1,9 +1,9 @@
 import { Container, Carousel } from 'react-bootstrap'
-import OdysseyImg1 from '../../assets/images/_2023 Flat/Odyssey-1.jpg'
-import OdysseyImg2 from '../../assets/images/_2023 Flat/Odyssey-2.png'
-import OdysseyImg3 from '../../assets/images/_2023 Flat/Odyssey-3.png'
-import OdysseyImg4 from '../../assets/images/_2023 Flat/Odyssey-4.png'
-import OdysseyImg5 from '../../assets/images/_2023 Flat/Odyssey-5.png'
+import OdysseyImg1 from './../../assets/images/_2023 Flat/Odyssey-1.jpg'
+import OdysseyImg2 from './../../assets/images/_2023 Flat/Odyssey-2.png'
+import OdysseyImg3 from './../../assets/images/_2023 Flat/Odyssey-3.png'
+import OdysseyImg4 from './../../assets/images/_2023 Flat/Odyssey-4.png'
+import OdysseyImg5 from './../../assets/images/_2023 Flat/Odyssey-5.png'
 import './ImagesOdyssey.css'
 
 
