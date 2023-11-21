@@ -3,11 +3,12 @@ import MyProjectsCards from './MyProjectsCards'
 import odysseyImg from '../../assets/images/_2023-Flat/Odyssey-1.jpg'
 import megafonoImg from '../../assets/images/_ElMegafono/ElMegafono-0.png'
 import igafImg from '../../assets/images/_IGAF/Igaf-1.png'
+import porfolioImg from '../../assets/images/_Porfolio/Porfolio-1.png'
 import './MyProjects.css'
 
 const MyProjects = ({ data }) => {
 
-    const { elMegafono, flatRentOdyssey, igaf } = data
+    const { elMegafono, flatRentOdyssey, igaf, helenadev } = data
 
     return (
 
@@ -41,7 +42,14 @@ const MyProjects = ({ data }) => {
                             technologies={igaf.technologies}
                             endpoint={'/igaf'}
                         />
+                        <MyProjectsCards
+                            title={helenadev.title}
+                            imageSrc={porfolioImg}
+                            technologies={helenadev.technologies}
+                            endpoint={'/'}
+                        />
                     </div>
+
 
                 </Container>
 
