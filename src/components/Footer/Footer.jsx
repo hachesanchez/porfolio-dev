@@ -6,7 +6,7 @@ import './Footer.css'
 
 const Footer = () => {
 
-    const cvLink = 'https://drive.google.com/file/d/1YmPbe4XKqypA8FAxprPJM4ihZrXfvslL/view?usp=sharing'
+    const cvLink = 'https://drive.google.com/file/d/1IXHS1W_jnVMHhCegZYarUaQmQfPpc1L6/view?usp=sharing'
 
     return (
 
