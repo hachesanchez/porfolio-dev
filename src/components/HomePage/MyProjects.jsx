@@ -18,7 +18,7 @@ const MyProjects = ({ data }) => {
 
                     <div className='myrojects-title'>
                         <h1 className='MyProjects-h1'>
-                            my proyects
+                            my projects
                         </h1>
                     </div>
 

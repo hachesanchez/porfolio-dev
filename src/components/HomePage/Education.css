@@ -3,7 +3,7 @@
 }
 
 .Education-title {
-    color: #3d155f;
+    color: #296196;
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 50px;
@@ -24,17 +24,17 @@
 .course-school {
     font-size: 21.5px;
     font-weight: 700;
-    color: rgba(72, 49, 212, 1);
+    color: #073763;
 }
 
 .course-title {
     font-size: 21.5px;
     font-weight: 700;
-    color: #3d155f;
+    color: #296196;
 }
 
 .course-info {
-    color: #3d155f;
+    color: #296196;
     font-size: 16px;
     font-weight: 400;
     padding-top: 10px;

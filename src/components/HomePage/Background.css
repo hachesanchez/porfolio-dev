@@ -1,5 +1,5 @@
  .Background {
-     background-color: #ccf381;
+     background-color: #fff193;
      margin-right: 30px;
      /* padding: 200px 20px; */
  }
@@ -7,7 +7,7 @@
  .Background-title {
      font-size: 45px;
      font-weight: 700;
-     color: rgba(72, 49, 212, 1);
+     color: #073763;
      margin-bottom: 30px;
      margin-top: 30px;
  }
@@ -20,13 +20,13 @@
  }
 
  .Background-intro {
-     color: rgba(72, 49, 212, 1);
+     color: #073763;
      margin-top: 15pt;
      font-size: 20px;
      font-weight: 700;
  }
 
  .Background-skills {
-     color: #3d155f;
+     color: #296196;
      font-weight: 300;
  }

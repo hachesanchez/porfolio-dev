@@ -13,10 +13,10 @@
 }
 
 .IgafPage-title {
-    color: rgba(72, 49, 212, 1);
+    color: #073763;
     font-size: 45px;
     font-weight: 700;
-    background-color: #CCF381;
+    background-color: #fff193;
     display: inline-flex;
 }
 
@@ -29,5 +29,5 @@
 }
 
 .links-Igaf {
-    background-color: #CCF381;
+    background-color: #fff193;
 }
