@@ -20,11 +20,15 @@ const HomePage = ({ data: { personalInfo, education, background, overTheYears, s
         <>
 
             <div className="home-page">
-
-                <Hero data={personalInfo} />
-                {/* <Word /> */}
-                <OverTheYears data={overTheYears} />
-                <Education data={education} />
+                <Row >
+                    <Hero data={personalInfo} />
+                </Row>
+                <Row>
+                    <OverTheYears data={overTheYears} />
+                </Row>
+                <Row>
+                    <Education data={education} />
+                </Row>
                 <Row className="skills-background">
                     <Col md={6} className="skills-col">
                         <Skills data={skills} />
@@ -33,7 +37,9 @@ const HomePage = ({ data: { personalInfo, education, background, overTheYears, s
                         <Background data={background} />
                     </Col>
                 </Row>
-                <MyProjects data={projects} />
+                <Row>
+                    <MyProjects data={projects} />
+                </Row>
 
             </div>
 

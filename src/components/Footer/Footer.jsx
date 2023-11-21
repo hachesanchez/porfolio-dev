@@ -1,4 +1,4 @@
-import { Container, Col, Image } from 'react-bootstrap'
+import { Container, Row, Image } from 'react-bootstrap'
 import gitImg from './../../assets/icons/icon-git.png'
 import linkedinImg from './../../assets/icons/icon-LinkedIn.png'
 
@@ -13,40 +13,41 @@ const Footer = () => {
         <>
             <div className='Footer'>
                 <Container>
+                    <Row>
 
-                    <p className='Footer-title'>
-                        SAY HELLO
-                        <br />
-                        <br />
-                        helena.sangar@gmail.com
-                    </p>
-                    <hr className='hr' />
-                    <a
-                        className="cv"
-                        href={cvLink}
-                        target='blank'
-                        rel="noopener noreferrer"
-                    >
-                        Review CV
-                    </a>
-
-
-                    <div className="media-icons rounded-pill d-flex justify-content-start">
+                        <p className='Footer-title'>
+                            SAY HELLO
+                            <br />
+                            <br />
+                            helena.sangar@gmail.com
+                        </p>
+                        <hr className='hr' />
                         <a
-                            href="https://www.linkedin.com/in/helena-garcia-webdev/"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            <Image className="contact-icon" src={linkedinImg} alt="linkedin-icon" />
+                            className="cv"
+                            href={cvLink}
+                            target='blank'
+                            rel="noopener noreferrer"
+                        >
+                            Review CV
                         </a>
-                        <a
-                            href="https://github.com/hachesanchez?tab=repositories"
-                            target="_blank"
-                            rel="noopener noreferrer">
-                            <Image className="contact-icon" src={gitImg} alt="git-icon" />
-                        </a>
-                    </div>
 
 
+                        <div className="media-icons rounded-pill d-flex justify-content-start">
+                            <a
+                                href="https://www.linkedin.com/in/helena-garcia-webdev/"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <Image className="contact-icon" src={linkedinImg} alt="linkedin-icon" />
+                            </a>
+                            <a
+                                href="https://github.com/hachesanchez?tab=repositories"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <Image className="contact-icon" src={gitImg} alt="git-icon" />
+                            </a>
+                        </div>
+
+                    </Row>
                 </Container>
             </div>
         </>
