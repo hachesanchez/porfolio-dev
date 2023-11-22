@@ -26,18 +26,23 @@
     font-weight: 400;
 }
 
-.expandingContainer{
-    animation-name: animation;
-    animation-duration: 1s;
+.expandingContainer {
     overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.overTheYears.show .expandingContainer {
+    max-height: 1000px;
+    transition: max-height 0.5s ease-in-out;
 }
 
 @keyframes animation {
     from {
-        max-height: 0px;
+        max-height: 0;
     }
 
     to {
-        max-height: 300px;
+        max-height: 1000px;
     }
 }
