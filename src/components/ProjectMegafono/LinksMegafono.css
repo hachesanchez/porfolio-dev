@@ -1,16 +1,20 @@
 .megafono-links-component {
-    padding: 50px 20px;
+  padding: 50px 20px;
 }
 
 .megafono-web {
-    background-color: #fff193;
-    margin-bottom: 20px;
+  background-color: #fff193;
+  margin-bottom: 20px;
 }
 
 .megafono-weblink {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .megafono-repo-title {
-    font-weight: bold;
+  font-weight: bold;
+}
+
+.megafono-credentials {
+  color: #073763;
 }
