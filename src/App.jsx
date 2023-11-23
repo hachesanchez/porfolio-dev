@@ -2,7 +2,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import AppRoutes from "./routes/AppRoutes"
 import Navigation from './components/Navigation/Navigation'
-import Footer from './components/Footer/Footer'
+import FooterPage from './pages/FooterPage/FooterPage'
 import data from './../helena-porfolio.json'
 import ScrollToTop from './ScrollToTop'
 
@@ -14,7 +14,7 @@ function App() {
     <ScrollToTop>
       <Navigation />
       <AppRoutes data={data} />
-      <Footer />
+      <FooterPage />
     </ScrollToTop>
 
 

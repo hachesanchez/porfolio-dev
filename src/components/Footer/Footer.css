@@ -28,7 +28,7 @@
 }
 
 .cv:hover {
-  font-weight: 500;
+   color: #fff193;
 }
 
 .estudio-h {
@@ -39,7 +39,7 @@
 }
 
 .estudio-h:hover {
-  font-weight: 500;
+   color: #fff193;
 }
 
 .media-icons {
@@ -59,4 +59,12 @@
 }
 .contact-icon-lin {
   height: 35px;
+}
+
+.drop-a-line {
+  cursor: pointer;
+}
+
+.drop-a-line:hover {
+   color: #fff193;
 }

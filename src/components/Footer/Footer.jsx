@@ -4,7 +4,8 @@ import linkedinImg from "./../../assets/icons/icon-LinkedIn.png";
 
 import "./Footer.css";
 
-const Footer = () => {
+const Footer = ({ onDropALineClick }) => {
+
   const cvLink =
     "https://drive.google.com/file/d/1IXHS1W_jnVMHhCegZYarUaQmQfPpc1L6/view?usp=sharing";
 
@@ -14,12 +15,17 @@ const Footer = () => {
     <>
       <div className="Footer">
         <Container>
+
           <Row>
             <p className="Footer-title">
               SAY HELLO
               <br />
               <br />
               helena.sangar@gmail.com
+              <br />
+              <span className="drop-a-line" onClick={onDropALineClick} >
+                or drop a line here
+              </span>
             </p>
             <hr className="hr" />
             <a
@@ -64,6 +70,7 @@ const Footer = () => {
               </a>
             </div>
           </Row>
+
         </Container>
       </div>
     </>

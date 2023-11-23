@@ -9,10 +9,10 @@ import { Row, Col } from "react-bootstrap";
 
 import "./HomePage.css";
 
-const HomePage = ({
-  data: { personalInfo, education, background, overTheYears, skills, projects },
-}) => {
+const HomePage = ({ data: { personalInfo, education, background, overTheYears, skills, projects }, }) => {
+
   return (
+
     <>
       <div className="home-page">
         <Row>
