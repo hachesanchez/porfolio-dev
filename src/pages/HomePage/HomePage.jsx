@@ -15,17 +15,18 @@ const HomePage = ({ data: { personalInfo, education, background, overTheYears, s
 
     <>
       <div className="home-page">
-        <Row>
+        <Row id='hero-section'>
           <Hero data={personalInfo} />
         </Row>
-        <Row>
+        <Row id='overTheYears-section'>
           <OverTheYears data={overTheYears} />
         </Row>
-        <Row>
+        <Row id='education-section'>
           <Education data={education} />
         </Row>
-        <Row className="skills-background">
-          {/* <h1 className="skillsandmore-title">skills and more</h1> */}
+        <Row
+          id='skills-background-section'
+          className="skills-background">
           <Col md={6} className="skills-col">
             <Skills data={skills} />
           </Col>
@@ -33,7 +34,7 @@ const HomePage = ({ data: { personalInfo, education, background, overTheYears, s
             <Background data={background} />
           </Col>
         </Row>
-        <Row>
+        <Row id='projects-section'>
           <MyProjects data={projects} />
         </Row>
       </div>
