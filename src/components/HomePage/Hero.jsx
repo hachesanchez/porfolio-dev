@@ -6,7 +6,12 @@ const Hero = ({ data }) => {
   return (
     <>
       <div className="hero">
-        <video autoPlay muted loop className="hero-video">
+        <video
+          autoPlay
+          muted
+          playsInline
+          loop
+          className="hero-video">
           <source src={backgroundVideo} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
