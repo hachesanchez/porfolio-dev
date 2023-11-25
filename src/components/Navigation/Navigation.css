@@ -19,6 +19,12 @@
     filter: invert(1);
     transition: color 0.2s ease;
 }
+ 
+
+.navbar-scrolled .navbar-toggler-icon {
+    filter: invert(1);
+    transition: color 0.2s ease;
+}
 
  
 .navbar-scrolled {
@@ -29,14 +35,15 @@
 }
 
 .navbar-scrolled .navbar-brand,
-.navbar-scrolled .nav-link {
+.navbar-scrolled .nav-link  {
      color: rgba(239, 239, 239, 1);
     /* color: #073763; */
 }
 
 .navbar-scrolled .nav-link.active {
     font-weight: bold;
-    color: #073763;
+    /* color: #073763; */
+     color: rgba(239, 239, 239, 1);
 }
 
 body {

@@ -1,5 +1,6 @@
 import { Container } from "react-bootstrap";
-import backgroundVideo from '../../assets/videos/hero-test-1.mp4'
+//import backgroundVideo from '../../assets/videos/hero-test-1.mp4'
+import backgroundVideo from '../../assets/videos/hero-2.mp4'
 import "./Hero.css";
 
 const Hero = ({ data }) => {

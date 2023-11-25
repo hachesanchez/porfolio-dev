@@ -10,31 +10,7 @@
  margin-left: 25px;
  margin-right: 25px;
 }
-
-@media (min-width: 300px) and (max-width: 575.98px) {
-  /* X-Small screens */
-  .hero-Container {
-   margin-top: 600px;
-  }
-}
-
-@media (min-width: 576px) and (max-width: 767.98px) {
-  /* Small screens */
-  .hero-title {
-    font-size: 70px;
-  }
-}
-/* .hero::before 6
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #073763;  
-  opacity: 0.50;  
-} */
-
+ 
 .hero video {
   position: absolute;
   top: 0;
