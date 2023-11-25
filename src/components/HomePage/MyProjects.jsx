@@ -36,24 +36,28 @@ const MyProjects = ({ data }) => {
                 imageSrc={megafonoImg}
                 technologies={elMegafono.technologies}
                 endpoint={"/el-megafono"}
+                alt='El Megáfono'
               />
               <MyProjectsCards
                 title={flatRentOdyssey.title}
                 imageSrc={odysseyImg}
                 technologies={flatRentOdyssey.technologies}
                 endpoint={"/2023-a-flat-rent-odyssey"}
+                alt='2023: A Flat Rent Odyssey'
               />
               <MyProjectsCards
                 title={igaf.title}
                 imageSrc={igafImg}
                 technologies={igaf.technologies}
                 endpoint={"/igaf"}
+                alt='IGAF'
               />
               <MyProjectsCards
                 title={helenadev.title}
                 imageSrc={porfolioImg}
                 technologies={helenadev.technologies}
                 endpoint={"/"}
+                alt='Porfolio'
               />
             </div>
           </div>

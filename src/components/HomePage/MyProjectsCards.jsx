@@ -12,7 +12,7 @@ const MyProjectsCards = ({ title, imageSrc, technologies, endpoint }) => {
 
             <Link className='link' to={endpoint} >
                 <Card className='card'>
-                    <Card.Img variant="top" className='card-image' src={imageSrc} />
+                    <Card.Img variant="top" className='card-image' src={imageSrc} alt='card image' />
                     <Card.Body>
                         <Card.Title>{title}</Card.Title>
                         <Card.Text>

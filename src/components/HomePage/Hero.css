@@ -1,11 +1,30 @@
  .hero {
   position: relative;
   /* background-color: #073763; */
-  padding: 500px 20px 70px;
-  overflow: hidden; 
+  height: 100vh;
+  overflow: hidden;  
 }  
 
-/* .hero::before {
+.hero-Container {
+ margin-top: 450px;
+ margin-left: 25px;
+ margin-right: 25px;
+}
+
+@media (min-width: 300px) and (max-width: 575.98px) {
+  /* X-Small screens */
+  .hero-Container {
+   margin-top: 600px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Small screens */
+  .hero-title {
+    font-size: 70px;
+  }
+}
+/* .hero::before 6
   content: "";
   position: absolute;
   top: 0;
