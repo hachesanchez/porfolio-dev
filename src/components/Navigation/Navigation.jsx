@@ -1,6 +1,6 @@
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
-import { Link as ScrollLink } from "react-scroll"; // Importa Link de react-scroll
+import { Link as ScrollLink } from "react-scroll";
 import { useState } from 'react';
 import './Navigation.css'
 
