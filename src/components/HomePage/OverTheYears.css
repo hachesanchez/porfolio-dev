@@ -1,14 +1,12 @@
 .overTheYears {
-    background-color: #296196;
     padding: 50px 20px;
+    background-color: #296196;
     transition: box-shadow 0.5s ease-in-out;
 }
 
 .overTheYears:hover {
-    background-color: #296196e2;
-    padding: 50px 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    border-color: #fff193;
+    background-color: #275682e2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3) !important;
 }
 
 .overTheYears-title {

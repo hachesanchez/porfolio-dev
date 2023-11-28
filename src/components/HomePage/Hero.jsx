@@ -12,25 +12,8 @@ const Hero = ({ data }) => {
     const canvas = canvasRef.current;
     canvas.style.cursor = `url('${bashIcon}') 12.5 12.5, auto`
     const ctx = canvas.getContext('2d');
-    let painting = false;
 
-    const startPosition = (e) => {
-      painting = true;
-      draw(e);
-    };
-
-    const endPosition = () => {
-      painting = false;
-      ctx.beginPath();
-    };
-
-    const draw = (e) => {
-      if (!painting) return;
-
-      const rect = canvas.getBoundingClientRect();
-      const x = e.clientX - rect.left;
-      const y = e.clientY - rect.top;
-
+    const draw = (x, y) => {
       const color = '#fff193';
 
       ctx.lineWidth = 40;
@@ -43,16 +26,18 @@ const Hero = ({ data }) => {
       ctx.moveTo(x, y);
     };
 
-    canvas.addEventListener('mousedown', startPosition);
-    canvas.addEventListener('mouseup', endPosition);
-    canvas.addEventListener('mousemove', (e) => {
-      draw(e);
-    });
+    const handleMouseMove = (e) => {
+      const rect = canvas.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+
+      draw(x, y);
+    };
+
+    canvas.addEventListener('mousemove', handleMouseMove);
 
     return () => {
-      canvas.removeEventListener('mousedown', startPosition);
-      canvas.removeEventListener('mouseup', endPosition);
-      canvas.removeEventListener('mousemove', draw);
+      canvas.removeEventListener('mousemove', handleMouseMove);
     };
   }, []);
 
@@ -65,8 +50,7 @@ const Hero = ({ data }) => {
           id="paint"
           width={window.innerWidth}
           height={700}
-        >
-        </canvas>
+        ></canvas>
         <div className="arrow-icon">
           <ScrollLink to="overTheYears-section" smooth={true} duration={100}>
             <img src={arrowIcon} alt="Arrow icon" />
@@ -89,10 +73,8 @@ const Hero = ({ data }) => {
           </div>
         </Container>
       </div>
-    </div >
+    </div>
   );
 };
 
 export default Hero;
-
-
