@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../../components/HomePage/Hero";
+import Hero from '../../components/HomePage/Hero';
 import Education from "../../components/HomePage/Education";
 import OverTheYears from "../../components/HomePage/OverTheYears";
 import Skills from "../../components/HomePage/Skills";
@@ -29,7 +29,7 @@ const HomePage = ({ data: { personalInfo, education, background, overTheYears, s
             <Education data={education} />
           </div>
         </Row>
-        <Row className="skills-background" id='skills-background-section'>
+        <Row className="skills-background" id='skills-background-section'  >
           <Col md={6} className="skills-col">
             <Skills data={skills} />
           </Col>
