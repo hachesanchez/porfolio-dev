@@ -1,5 +1,6 @@
 import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap'
 import { Link } from 'react-router-dom';
+import { Link as ScrollLink } from "react-scroll"; // Importa Link de react-scroll
 import { useState } from 'react';
 import './Navigation.css'
 
@@ -35,6 +36,12 @@ const Navigation = () => {
                     <Nav className="ms-auto">
                         <Nav.Link as={Link} to={'/'}>home</Nav.Link>
                         {/* <Nav.Link as={Link} to={'#contact-section'}>contact</Nav.Link> */}
+                        {/* <ScrollLink to="contact-section"
+                            smooth={true}
+                            duration={100}
+                        >
+                            contact
+                        </ScrollLink> */}
 
                         <NavDropdown title="projects" id="basic-nav-dropdown" activeclassname='active'>
                             <NavDropdown.Item
