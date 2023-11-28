@@ -4,10 +4,13 @@ import backgroundVideo from '../../assets/videos/hero-2.mp4'
 import "./Hero.css";
 
 const Hero = ({ data }) => {
+
+
+
   return (
     <>
       <div className="hero">
-        <video
+        {/* <video
           autoPlay
           muted
           playsInline
@@ -15,7 +18,7 @@ const Hero = ({ data }) => {
           className="hero-video">
           <source src={backgroundVideo} type="video/mp4" />
           Your browser does not support the video tag.
-        </video>
+        </video> */}
         <Container >
           <div className="hero-Container">
             <h1 className="hero-title">web - dev - ops</h1>
