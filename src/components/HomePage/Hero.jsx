@@ -51,7 +51,9 @@ const Hero = ({ data }) => {
   }, []);
 
   return (
+
     <div className="hero">
+
       <div className="hero-computer">
         <canvas
           ref={canvasRef}
@@ -60,7 +62,7 @@ const Hero = ({ data }) => {
           width={window.innerWidth}
           height={window.innerHeight}
         ></canvas>
-        <div className="arrow-icon">
+        <div className="computer-arrow-icon">
           <ScrollLink to="overTheYears-section" smooth={true} duration={100}>
             <img src={arrowIcon} alt="Arrow icon" />
           </ScrollLink>
@@ -75,13 +77,14 @@ const Hero = ({ data }) => {
               hello, my name is {data.username} and I'm really excited to have you around!
             </p>
           </div>
-          <div className="arrow-icon">
+          <div className="mobile-arrow-icon">
             <ScrollLink to="overTheYears-section" smooth={true} duration={100}>
               <img src={arrowIcon} alt="Arrow icon" />
             </ScrollLink>
           </div>
         </Container>
       </div>
+
     </div>
   );
 };
