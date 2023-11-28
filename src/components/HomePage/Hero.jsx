@@ -14,11 +14,20 @@ const Hero = ({ data }) => {
     const ctx = canvas.getContext('2d');
 
     const draw = (x, y) => {
+
       const color = '#fff193';
 
-      ctx.lineWidth = 40;
+      // const gradient = ctx.createLinearGradient(0, 0, window.innerWidth, 0);
+      // gradient.addColorStop(0, '#FFF193'); // Start color
+      // gradient.addColorStop(0.3, '#CCC69F');
+      // gradient.addColorStop(0.6, '#99957D');
+      // gradient.addColorStop(1, '#66613F');
+
+      ctx.lineWidth = 80;
       ctx.lineCap = 'round';
+      //ctx.strokeStyle = gradient;  
       ctx.strokeStyle = color;
+      ctx.shadowColor = "#D9CD7E";
 
       ctx.lineTo(x, y);
       ctx.stroke();
@@ -49,7 +58,7 @@ const Hero = ({ data }) => {
           className="hero-canvas"
           id="paint"
           width={window.innerWidth}
-          height={700}
+          height={window.innerHeight}
         ></canvas>
         <div className="arrow-icon">
           <ScrollLink to="overTheYears-section" smooth={true} duration={100}>
