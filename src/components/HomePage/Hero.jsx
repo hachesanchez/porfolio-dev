@@ -23,7 +23,7 @@ const Hero = ({ data }) => {
       // gradient.addColorStop(0.6, '#99957D');
       // gradient.addColorStop(1, '#66613F');
 
-      ctx.lineWidth = 65;
+      ctx.lineWidth = 45;
       ctx.lineCap = 'round';
       //ctx.strokeStyle = gradient;  
       ctx.strokeStyle = color;
