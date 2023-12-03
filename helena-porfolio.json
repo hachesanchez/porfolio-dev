@@ -66,11 +66,11 @@
                 "credentials": [
                     "You can sign up or just login with the following credentials: ",
                     "User - guest@msn.com / Password - guest"
-                ] 
+                ]
             },
             "repository": {
-                "client": "https://github.com/hachesanchez/El-Megafono-client",
-                "server": "https://github.com/hachesanchez/El-Megafono-server"
+                "client": "https://github.com/hachesanchez/megafono-fullstack/tree/main/devops-megafono-client",
+                "server": "https://github.com/hachesanchez/megafono-fullstack/tree/main/devops-megafono-server"
             },
             "technologies": [
                 "NodeJs",
