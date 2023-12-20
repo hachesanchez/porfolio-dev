@@ -1,0 +1,16 @@
+.Porfolio-links-component {
+    padding: 50px 20px;
+}
+
+.Porfolio-web {
+    background-color: #fff193;
+    margin-bottom: 20px;
+}
+
+.Porfolio-weblink {
+    font-weight: bold;
+}
+
+.Porfolio-repo-title {
+    font-weight: bold;
+}

@@ -1,0 +1,17 @@
+.Porfolio-intro-component {
+    padding: 50px 20px;
+    color: #296196;
+}
+
+.Porfolio-intro-text {
+    color: #296196;
+}
+
+.Porfolio-features {
+    margin-left: 30px;
+}
+
+.Porfolio-feature-title {
+    font-weight: bold;
+    display: inline;
+}

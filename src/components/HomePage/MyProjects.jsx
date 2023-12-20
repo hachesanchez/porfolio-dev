@@ -1,20 +1,23 @@
-import { Container } from "react-bootstrap";
-import MyProjectsCards from "./MyProjectsCards";
-import odysseyImg from "../../assets/images/_2023-Flat/Odyssey-1.jpg";
-import megafonoImg from "../../assets/images/_ElMegafono/ElMegafono-0.png";
-import igafImg from "../../assets/images/_IGAF/Igaf-1.png";
-import porfolioImg from "../../assets/images/_Porfolio/Porfolio-1.png";
-import "./MyProjects.css";
-import { useState } from "react";
+import { Container } from "react-bootstrap"
+import MyProjectsCards from "./MyProjectsCards"
+import odysseyImg from "../../assets/images/_2023-Flat/Odyssey-1.jpg"
+import megafonoImg from "../../assets/images/_ElMegafono/ElMegafono-0.png"
+import igafImg from "../../assets/images/_IGAF/Igaf-1.png"
+import porfolioImg from "../../assets/images/_Porfolio/Porfolio-1.png"
+import devopsImg from "../../assets/images/_DevOps/Devops-1.png"
+import "./MyProjects.css"
+import { useState } from "react"
+
 
 const MyProjects = ({ data }) => {
-  const { elMegafono, flatRentOdyssey, igaf, helenadev } = data;
 
-  const [showFullContent, setShowFullContent] = useState(false);
 
+  const { elMegafono, flatRentOdyssey, igaf, helenadev, devopsBootcamp } = data
+  const [showFullContent, setShowFullContent] = useState(false)
   const toggleContent = () => {
-    setShowFullContent(!showFullContent);
-  };
+    setShowFullContent(!showFullContent)
+  }
+
 
   return (
     <>
@@ -39,6 +42,20 @@ const MyProjects = ({ data }) => {
                 alt='El Megáfono'
               />
               <MyProjectsCards
+                title={devopsBootcamp.title}
+                imageSrc={devopsImg}
+                technologies={devopsBootcamp.technologies}
+                endpoint={"/"}
+                alt='Porfolio'
+              />
+              <MyProjectsCards
+                title={helenadev.title}
+                imageSrc={porfolioImg}
+                technologies={helenadev.technologies}
+                endpoint={"/"}
+                alt='Porfolio'
+              />
+              <MyProjectsCards
                 title={flatRentOdyssey.title}
                 imageSrc={odysseyImg}
                 technologies={flatRentOdyssey.technologies}
@@ -52,19 +69,12 @@ const MyProjects = ({ data }) => {
                 endpoint={"/igaf"}
                 alt='IGAF'
               />
-              <MyProjectsCards
-                title={helenadev.title}
-                imageSrc={porfolioImg}
-                technologies={helenadev.technologies}
-                endpoint={"/"}
-                alt='Porfolio'
-              />
             </div>
           </div>
         </Container>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default MyProjects;
+export default MyProjects

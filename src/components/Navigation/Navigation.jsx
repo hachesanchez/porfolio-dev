@@ -58,6 +58,20 @@ const Navigation = () => {
                             </NavDropdown.Item>
                             <NavDropdown.Item
                                 as={Link}
+                                to={'/porfolio'}
+                                className='dropdown-item'
+                            >
+                                Porfolio
+                            </NavDropdown.Item>
+                            <NavDropdown.Item
+                                as={Link}
+                                to={'/devops'}
+                                className='dropdown-item'
+                            >
+                                DevOps
+                            </NavDropdown.Item>
+                            <NavDropdown.Item
+                                as={Link}
                                 to={'/igaf'}
                                 className='dropdown-item'
                             >

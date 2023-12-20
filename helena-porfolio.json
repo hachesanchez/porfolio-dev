@@ -6,32 +6,96 @@
         "cvLink": "https://drive.google.com/file/d/1YmPbe4XKqypA8FAxprPJM4ihZrXfvslL/view?usp=sharing"
     },
     "projects": {
-        "helenadev": {
-            "title": "Porfolio",
-            "intro": "porfolio intro",
+        "devopsBootcamp": {
+            "title": "DevOps Bootcamp",
+            "intro": "devops intro",
             "description": [
                 {
-                    "subtitle": "porfolio-subtitle",
+                    "subtitle": "intro",
                     "content": [
-                        "content",
-                        "content"
+                        "This is the final project I leaded as a Scrum Master for Ironhack's DevOps Bootcamp. I developed it along with 3 other classmates and it focuses on implementing DevOps practices and deploying a web application using various tools and services."
                     ]
                 },
                 {
-                    "subtitle": "porfolio-subtitle",
+                    "subtitle": "Part 1: Deploy Code Locally",
                     "content": [
-                        "content",
-                        "content"
+                        "We laid the groundwork by deploying our code locally. Simple as that."
+                    ]
+                },
+                {
+                    "subtitle": "Part 2: Docker",
+                    "content": [
+                        "We containerized the app for flexibility and scalability. "
+                    ]
+                },
+                {
+                    "subtitle": "Part 3: Docker-Compose",
+                    "content": [
+                        "Making life easier with Docker-Compose while orchestrating multiple containers effortlessly."
+                    ]
+                },
+                {
+                    "subtitle": "Part 4: Azure Web Apps",
+                    "content": [
+                        "Jumping to the cloud: we explored Azure Web Apps and Azure Devops' pipelines for a smooth deployment experience."
+                    ]
+                },
+                {
+                    "subtitle": "Part 5: AKS Cluster using Terraform",
+                    "content": [
+                        "We used Terraform to create an AKS cluster managing state in Azure BLob Storage."
+                    ]
+                },
+                {
+                    "subtitle": "AKS deployment",
+                    "content": [
+                        "This part took us to the cloud summit. With our AKS cluster ready, we deployed the whole application, leveraging Kubernetes."
+                    ]
+                },
+                {
+                    "subtitle": "Part 7: Prometheus and Grafana",
+                    "content": [
+                        "Using Ansible playbooks to deploy and manage Prometheus and Grafana for monitoring and visualization of virtual machines and AKS cluster."
+                    ]
+                }
+            ],
+            "link": "",
+            "repository": {
+                "repo": "https://github.com/hachesanchez/devops-finalproject-ok"
+            },
+            "technologies": [
+                "Azure",
+                "Terraform",
+                "Docker",
+                "K8S"
+            ]
+        },
+        "helenadev": {
+            "title": "Porfolio",
+            "intro": "Here's a more technical approach of this site you're navigating!",
+            "description": [
+                {
+                    "subtitle": "Frontend",
+                    "content": [
+                        "In this React.js project, I developed a dynamic and responsive user interface to create an engaging user experience. Leveraging the React library, I organized the UI into modular components, fostering code maintainability and reusability. React Router facilitated seamless navigation between different pages, ensuring a smooth and user-friendly browsing experience.",
+                        "To manage data interactions with the server, I implemented services that utilized the Axios library. Axios allowed for efficient handling of HTTP requests, enabling the application to communicate with the back-end for data retrieval and submission.",
+                        "One standout feature is the implementation of an interactive hero section, creatively engaging users with a dynamic canvas. The hero section spans the entire height of the window and employs the HTML <canvas> tag to provide an immersive and visually appealing experience."
+                    ]
+                },
+                {
+                    "subtitle": "Deployment and Version Control",
+                    "content": [
+                        "Git was employed as the version control system, offering a collaborative platform to track code changes and manage development. The project's deployment was facilitated through Netlify, a hosting and deployment platform known for its user-friendly interface and seamless integration with Git. Netlify streamlined the deployment of the front-end, leveraging file-based routing and Git integration.",
+                        "Although this project primarily focuses on the front-end, it successfully incorporates industry-standard practices for development, version control, and deployment, contributing to a robust and efficient application."
                     ]
                 }
             ],
             "link": "https://helenadev.net",
-            "repository": {
-                "client": "https://github.com/hachesanchez/porfolio-dev"
-            },
+            "repository": "https://github.com/hachesanchez/porfolio-dev",
             "technologies": [
                 "NodeJs",
-                "React"
+                "React",
+                "Canvas"
             ]
         },
         "elMegafono": {
