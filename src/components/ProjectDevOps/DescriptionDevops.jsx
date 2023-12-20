@@ -1,27 +1,25 @@
 import { Container, Row, Col } from 'react-bootstrap'
-import './DescriptionIgaf.css'
+import './DescriptionDevOps.css'
 
-const DescriptionIgaf = ({ description }) => {
+const DescriptionDevOps = ({ description }) => {
 
     return (
 
         <>
-            <div className="Igaf-description-component">
+            <div className="DevOps-description-component">
                 <Container>
                     <Row>
 
                         <Col sm={12} md={12} lg={8} xl={8}>
                             {description.map((e, idx) => (
-                                <div key={idx} >
-                                    <p className="Igaf-subtitle">
+                                <div key={idx}>
+                                    <p className='DevOps-subtitle'>
                                         {e.subtitle}
                                     </p>
                                     <br />
-                                    {e.content.map((e, idx) => (
-                                        <p key={idx} className="Igaf-content">
-                                            {e}
-                                        </p>
-                                    ))}
+                                    <p className='DevOps-content'>
+                                        {e.content}
+                                    </p>
                                 </div>
                             ))}
                         </Col>
@@ -34,4 +32,4 @@ const DescriptionIgaf = ({ description }) => {
     )
 }
 
-export default DescriptionIgaf
+export default DescriptionDevOps

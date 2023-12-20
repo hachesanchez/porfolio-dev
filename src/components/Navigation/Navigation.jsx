@@ -63,13 +63,13 @@ const Navigation = () => {
                             >
                                 Porfolio
                             </NavDropdown.Item>
-                            {/* <NavDropdown.Item
+                            <NavDropdown.Item
                                 as={Link}
                                 to={'/devops'}
                                 className='dropdown-item'
                             >
                                 DevOps
-                            </NavDropdown.Item> */}
+                            </NavDropdown.Item>
                             <NavDropdown.Item
                                 as={Link}
                                 to={'/igaf'}

@@ -8,14 +8,8 @@
     "projects": {
         "devopsBootcamp": {
             "title": "DevOps Bootcamp",
-            "intro": "devops intro",
+            "intro": "This is the final project I leaded as a Scrum Master for Ironhack's DevOps Bootcamp. I developed it along with 3 other classmates and it focuses on implementing DevOps practices and deploying a web application using various tools and services.",
             "description": [
-                {
-                    "subtitle": "intro",
-                    "content": [
-                        "This is the final project I leaded as a Scrum Master for Ironhack's DevOps Bootcamp. I developed it along with 3 other classmates and it focuses on implementing DevOps practices and deploying a web application using various tools and services."
-                    ]
-                },
                 {
                     "subtitle": "Part 1: Deploy Code Locally",
                     "content": [
@@ -47,7 +41,7 @@
                     ]
                 },
                 {
-                    "subtitle": "AKS deployment",
+                    "subtitle": "Part 6: AKS deployment",
                     "content": [
                         "This part took us to the cloud summit. With our AKS cluster ready, we deployed the whole application, leveraging Kubernetes."
                     ]
@@ -60,9 +54,7 @@
                 }
             ],
             "link": "",
-            "repository": {
-                "repo": "https://github.com/hachesanchez/devops-finalproject-ok"
-            },
+            "repository": "https://github.com/hachesanchez/devops-finalproject-ok",
             "technologies": [
                 "Azure",
                 "Terraform",
@@ -264,9 +256,10 @@
     "overTheYears": {
         "title": "over the years",
         "text": [
-            "I've recently embarked on an exciting journey of professional reinvention, transitioning into a full-stack MERN web developer, and really soon, into a DevOps engineer.",
-            "My journey began with an intensive nine-week bootcamp at Ironhack, Madrid. During this program, I dove headfirst into the world of web development, gaining proficiency in key technologies such as JavaScript, Node, Express, HTML, CSS, Bootstrap, MongoDB, and ReactJS.",
-            "My background is quite diverse; with a degree in journalism, I spent eight fulfilling years as a photographer and videographer, building my career between the corporate world and the social third sector. This unique blend of experiences has cultivated my creativity, adaptability, strong problem-solving skills, and a keen eye for detail."
+            "I recently took a detour in my professional journey, shifting gears from full-stack MERN web development to exploring the exciting realm of DevOps. The trigger? A whirlwind nine-week bootcamp at Ironhack, Madrid. Here, I dove deep into the coding ocean, mastering JavaScript, Node.js, Express, HTML, CSS, Bootstrap, MongoDB, and ReactJS.",
+            "But that wasn't the end of the ride... I decided to embrace a comprehensive curriculum delving into key DevOps tools and practices. Think Azure, Docker, Kubernetes, Terraform, Ansible, Prometheus, and Grafana — all in another intense bootcamp.",
+            "My backstory is a patchwork of experiences: armed with a journalism degree, I spent eight dynamic years as a photographer and videographer. From boardrooms to the social third sector, I honed not just technical skills but also creativity, adaptability, a knack for problem-solving, and an eagle eye for detail.",
+            "Now, with this diverse skill set in my arsenal, I'm all set to sculpt robust web applications and seamlessly weave in DevOps strategies for a slicker software development journey."
         ]
     },
     "background": {

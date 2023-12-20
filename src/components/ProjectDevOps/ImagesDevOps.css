@@ -1,0 +1,29 @@
+.DevOps-images-component {
+    padding: 50px 20px;
+    background-color: #fff193;
+    justify-content: center;
+}
+
+.DevOps-images-container {
+    max-width: 1000px;
+}
+
+.DevOps-carousel-images {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.presentation-DevOps {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 56.2500%;
+    padding-bottom: 0;
+    box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+    margin-top: 1.6em;
+    margin-bottom: 0.9em;
+    overflow: hidden;
+    border-radius: 8px;
+    will-change: transform;
+}

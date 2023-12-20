@@ -1,0 +1,33 @@
+.title-DevOps {
+    padding-top: 100px;
+    padding-left: 70px;
+}
+
+@media (max-width: 575.98px) {
+
+    .title-DevOps {
+        padding-top: 100px;
+        padding-left: 30px
+    }
+
+}
+
+.DevOpsPage-title {
+    color: #073763;
+    font-size: 45px;
+    font-weight: 700;
+    background-color: #fff193;
+    display: inline-flex;
+}
+
+@media (max-width: 575.98px) {
+
+    /* X-Small screens */
+    .DevOpsPage-title {
+        font-size: 33px;
+    }
+}
+
+.links-DevOps {
+    background-color: #fff193;
+}
