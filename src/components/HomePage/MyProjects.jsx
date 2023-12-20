@@ -45,14 +45,14 @@ const MyProjects = ({ data }) => {
                 title={devopsBootcamp.title}
                 imageSrc={devopsImg}
                 technologies={devopsBootcamp.technologies}
-                endpoint={"/"}
-                alt='Porfolio'
+                endpoint={"/devops"}
+                alt='DevOps'
               />
               <MyProjectsCards
                 title={helenadev.title}
                 imageSrc={porfolioImg}
                 technologies={helenadev.technologies}
-                endpoint={"/"}
+                endpoint={"/porfolio"}
                 alt='Porfolio'
               />
               <MyProjectsCards
