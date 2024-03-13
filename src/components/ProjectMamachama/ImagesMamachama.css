@@ -1,0 +1,15 @@
+.mamachama-images-component {
+    padding: 50px 20px;
+    background-color: #fff193;
+    justify-content: center;
+}
+
+.mamachama-images-container {
+    max-width: 1000px;
+}
+
+.mamachama-carousel-images {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}

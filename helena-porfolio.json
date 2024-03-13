@@ -6,6 +6,57 @@
         "cvLink": "https://drive.google.com/file/d/1YmPbe4XKqypA8FAxprPJM4ihZrXfvslL/view?usp=sharing"
     },
     "projects": {
+          "mamachama": {
+            "title": "Mamachama",
+            "intro": "Designing and developing the web application for Mamachama Association using the MERN stack (MongoDB, Express.js, React.js, and Node.js)",
+            "description": [
+                {
+                    "subtitle": "Secure Authentication",
+                    "content": [
+                        "I implemented a robust authentication system using JSON Web Tokens (JWT), ensuring the security of the association members' accounts. From user registration to login and session management, each step was crafted with a focus on security and usability"
+                    ]
+                },
+                {
+                    "subtitle": "User Registration and Credential Management",
+                    "content": [
+                        "The user registration process was streamlined while maintaining data integrity with real-time validation. Furthermore, advanced hashing and salting techniques were employed to securely store credentials, safeguarding our users' sensitive information."
+                    ]
+                },
+                {
+                    "subtitle": "Responsive Experience ",
+                    "content": [
+                        "Every screen, from the login form to the project control panel, was designed with the user experience across various devices in mind. Thanks to the implementation of responsive CSS and frameworks like Bootstrap, the platform is accessible from anywhere, at any time."
+                    ]
+                },
+                  {
+                    "subtitle": "Simplified Project Uploads",
+                    "content": [
+                        "I facilitated project uploads for association members with an intuitive and user-friendly form. From project descriptions to attachment uploads, each step was optimized to ensure a seamless and efficient experience."
+                    ]
+                },
+                  {
+                    "subtitle": "Efficient Deployment and Resource Management",
+                    "content": [
+                        "For server deployment, I opted for efficiency and scalability using the Fly.io platform, which provides a fast and secure execution environment for our applications. Additionally, for the client side, I chose Netlify for its continuous deployment capability and high-performance hosting of static sites."
+                    ]
+                },
+                  {
+                    "subtitle": "Robust Database and Media Storage",
+                    "content": [
+                        "The database is hosted on MongoDB Atlas, ensuring the robustness and scalability of our data. As for image and other multimedia storage, we rely on Cloudinary, a powerful platform that enables us to manage and optimize our visual resources efficiently."
+                    ]
+                }
+            ],
+            "link": "https://mamachama.netlify.app/",
+            "repository": {
+                "client": "https://github.com/hachesanchez/Mamachama-client",
+                "server": "https://github.com/hachesanchez/Mamachama-server"
+            },
+            "technologies": [
+                "NodeJs",
+                "React"
+            ]
+        },
         "devopsBootcamp": {
             "title": "DevOps Bootcamp",
             "intro": "This is the final project I leaded as a Scrum Master for Ironhack's DevOps Bootcamp. I developed it along with 3 other classmates and it focuses on implementing DevOps practices and deploying a web application using various tools and services.",

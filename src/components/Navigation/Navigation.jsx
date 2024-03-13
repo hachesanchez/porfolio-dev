@@ -8,13 +8,17 @@ import './Navigation.css'
 const Navigation = () => {
 
     const [scrolled, setScrolled] = useState(false)
+    const [expanded, setExpanded] = useState(false)
+
     const handleScroll = () => {
         setScrolled(window.scrollY > 0)
     }
 
     window.addEventListener('scroll', handleScroll)
 
-
+    const handleCloseNavbar = () => {
+        setExpanded(false)
+    }
 
     return (
 
@@ -25,7 +29,7 @@ const Navigation = () => {
 
             <Container>
 
-                <Navbar.Brand as={Link} to={'/'} >helena garcía </Navbar.Brand>
+                <Navbar.Brand as={Link} to={'/'} onClick={handleCloseNavbar}>helena garcía </Navbar.Brand>
 
                 <Navbar.Toggle
                     aria-controls="basic-navbar-nav"
@@ -51,8 +55,17 @@ const Navigation = () => {
                         <NavDropdown title="projects" id="basic-nav-dropdown">
                             <NavDropdown.Item
                                 as={Link}
+                                to={'/mamachama'}
+                                className='dropdown-item'
+                                onClick={handleCloseNavbar}
+                            >
+                                Mamachama
+                            </NavDropdown.Item>
+                            <NavDropdown.Item
+                                as={Link}
                                 to={'/el-megafono'}
                                 className='dropdown-item'
+                                onClick={handleCloseNavbar}
                             >
                                 El Megáfono
                             </NavDropdown.Item>
@@ -60,6 +73,7 @@ const Navigation = () => {
                                 as={Link}
                                 to={'/porfolio'}
                                 className='dropdown-item'
+                                onClick={handleCloseNavbar}
                             >
                                 Porfolio
                             </NavDropdown.Item>
@@ -67,6 +81,7 @@ const Navigation = () => {
                                 as={Link}
                                 to={'/devops'}
                                 className='dropdown-item'
+                                onClick={handleCloseNavbar}
                             >
                                 DevOps
                             </NavDropdown.Item>
@@ -74,6 +89,7 @@ const Navigation = () => {
                                 as={Link}
                                 to={'/igaf'}
                                 className='dropdown-item'
+                                onClick={handleCloseNavbar}
                             >
                                 IGAF
                             </NavDropdown.Item>
@@ -81,6 +97,7 @@ const Navigation = () => {
                                 as={Link}
                                 to={'/2023-a-flat-rent-odyssey'}
                                 className='dropdown-item'
+                                onClick={handleCloseNavbar}
                             >
                                 2023: A Flat Rent Odyssey
                             </NavDropdown.Item>

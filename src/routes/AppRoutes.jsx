@@ -5,6 +5,7 @@ import IgafPage from "../pages/IgafPage/IgafPage"
 import OdysseyPage from "../pages/OdysseyPage/OdysseyPage"
 import PorfolioPage from '../pages/PorfolioPage/PorfolioPage'
 import DevOpsPage from '../pages/DevOpsPage/DevOpsPage'
+import Mamachamapage from '../pages/MamachamaPage/Mamachamapage'
 
 
 const AppRoutes = ({ data }) => {
@@ -19,6 +20,7 @@ const AppRoutes = ({ data }) => {
             <Route path='/2023-a-flat-rent-odyssey' element={<OdysseyPage data={data.projects.flatRentOdyssey} />} />
             <Route path='/porfolio' element={<PorfolioPage data={data.projects.helenadev} />} />
             <Route path='/devops' element={<DevOpsPage data={data.projects.devopsBootcamp} />} />
+            <Route path='/mamachama' element={<Mamachamapage data={data.projects.mamachama} />} />
 
         </Routes>
     )

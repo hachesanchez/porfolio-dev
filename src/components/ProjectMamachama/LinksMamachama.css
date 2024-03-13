@@ -1,0 +1,20 @@
+.mamachama-links-component {
+  padding: 50px 20px;
+}
+
+.mamachama-web {
+  background-color: #fff193;
+  margin-bottom: 20px;
+}
+
+.mamachama-weblink {
+  font-weight: bold;
+}
+
+.mamachama-repo-title {
+  font-weight: bold;
+}
+
+.mamachama-credentials {
+  color: #073763;
+}

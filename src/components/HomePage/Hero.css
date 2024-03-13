@@ -3,7 +3,7 @@
   height: 100vh;
 }
 
-@media (max-width: 1100px) {
+/* @media (max-width: 1100px) {
   .hero-computer {
     display: none;
   }
@@ -11,9 +11,9 @@
   .hero-mobile {
     display: block;
   }
-}
+} */
 
-@media (min-width: 1100px) {
+@media (min-width: 300px) {
   .hero-computer {
     display: block;
   }

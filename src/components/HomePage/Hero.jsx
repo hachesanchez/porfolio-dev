@@ -64,7 +64,7 @@ const Hero = ({ data }) => {
           height={window.innerHeight}
         ></canvas>
         <div className="computer-arrow-icon">
-          <ScrollLink to="overTheYears-section" smooth={true} duration={100}>
+          <ScrollLink to="overTheYears-section" smooth={true} duration={100} offset={-40}>
             <img src={arrowIcon} alt="Arrow icon" />
           </ScrollLink>
         </div>
@@ -79,14 +79,14 @@ const Hero = ({ data }) => {
             </p>
           </div>
           <div className="mobile-arrow-icon">
-            <ScrollLink to="overTheYears-section" smooth={true} duration={100}>
+            <ScrollLink to="overTheYears-section" smooth={true} duration={100} offset={-40}>
               <img src={arrowIcon} alt="Arrow icon" />
             </ScrollLink>
           </div>
         </Container>
       </div>
 
-    </div>
+    </div >
   );
 };
 
