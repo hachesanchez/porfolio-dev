@@ -73,7 +73,7 @@ const Hero = ({ data }) => {
       <div className="hero-mobile">
         <Container>
           <div className="hero-Container">
-            <h1 className="hero-title">web - dev - ops</h1>
+            <h1 className="hero-title">web dev ops</h1>
             <p className="hero-text">
               hello, my name is {data.username} and I'm really excited to have you around!
             </p>
