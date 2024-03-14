@@ -64,7 +64,7 @@ body {
 
     .navbar-nav .nav-item.dropdown:hover,
     .nav-link:hover {
-        background-color: #296196;
+        color: #fff193;
     }
 
     .navbar-nav .nav-link.show {
