@@ -70,6 +70,7 @@ const Navigation = () => {
                             >
                                 Mamachama
                             </NavDropdown.Item>
+                            <hr />
                             <NavDropdown.Item
                                 as={Link}
                                 to={'/el-megafono'}
@@ -78,6 +79,7 @@ const Navigation = () => {
                             >
                                 El Megáfono
                             </NavDropdown.Item>
+                            <hr />
                             <NavDropdown.Item
                                 as={Link}
                                 to={'/porfolio'}
@@ -86,6 +88,7 @@ const Navigation = () => {
                             >
                                 Porfolio
                             </NavDropdown.Item>
+                            <hr />
                             <NavDropdown.Item
                                 as={Link}
                                 to={'/devops'}
@@ -94,6 +97,7 @@ const Navigation = () => {
                             >
                                 DevOps
                             </NavDropdown.Item>
+                            <hr />
                             <NavDropdown.Item
                                 as={Link}
                                 to={'/igaf'}
@@ -102,6 +106,7 @@ const Navigation = () => {
                             >
                                 IGAF
                             </NavDropdown.Item>
+                            <hr />
                             <NavDropdown.Item
                                 as={Link}
                                 to={'/2023-a-flat-rent-odyssey'}

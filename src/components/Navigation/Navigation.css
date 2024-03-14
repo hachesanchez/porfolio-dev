@@ -57,17 +57,22 @@ body {
     #basic-navbar-nav {
         height: auto;
         padding-bottom: 30px;
-        margin-right: 0;
+        margin-right: 20px;
         margin-top: 10px;
-        margin-left: 0px;
+        margin-left: 20px;
     }
 
     .navbar-nav .nav-item.dropdown:hover,
     .nav-link:hover {
-        background-color: #296196
+        background-color: #296196;
     }
 
     .navbar-nav .nav-link.show {
         color: white;
+    }
+
+    .navbar-nav .nav-item.dropdown,
+    .nav-link {
+        padding-bottom: 10px;
     }
 }
