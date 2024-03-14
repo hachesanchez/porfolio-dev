@@ -100,8 +100,13 @@
 
   /* X-Small screens */
   .hero-title {
-    font-size: 185px;
+    margin-top: 90px;
+    font-size: 140px;
     margin-bottom: 60px;
+  }
+
+  .hero-text {
+    font-size: 18px;
   }
 }
 
@@ -118,27 +123,12 @@
 
   /* Medium screens */
   .hero-title {
-    font-size: 185px;
-    margin-bottom: 60px;
+    font-size: 240px;
+    margin-bottom: 90px;
   }
 }
 
-@media (min-width: 992px) and (max-width: 1199.98px) {
 
-  /* Large screens */
-  .hero-title {
-    font-size: 260px;
-    margin-bottom: 70px;
-  }
-}
-
-@media (min-width: 1200px) {
-
-  /* Extra-large screens */
-  .hero-title {
-    font-size: 160px;
-  }
-}
 
 
 
