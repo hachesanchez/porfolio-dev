@@ -3,7 +3,7 @@
   height: 100vh;
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1099px) {
   .hero-computer {
     display: none;
   }
@@ -13,7 +13,7 @@
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: 1099px) {
   .hero-computer {
     display: block;
   }
@@ -89,8 +89,9 @@
 .hero-title {
   margin-top: 100px;
   color: #fff193;
-  font-size: 90px;
+  font-size: 94px;
   font-weight: 300;
+  line-height: 0.85;
   font-family: Georgia, 'Times New Roman', Times, serif
 }
 
@@ -99,7 +100,8 @@
 
   /* X-Small screens */
   .hero-title {
-    font-size: 90px;
+    font-size: 185px;
+    margin-bottom: 60px;
   }
 }
 
@@ -107,7 +109,8 @@
 
   /* Small screens */
   .hero-title {
-    font-size: 40px;
+    font-size: 185px;
+    margin-bottom: 60px;
   }
 }
 
@@ -115,7 +118,8 @@
 
   /* Medium screens */
   .hero-title {
-    font-size: 50px;
+    font-size: 185px;
+    margin-bottom: 60px;
   }
 }
 
@@ -123,7 +127,8 @@
 
   /* Large screens */
   .hero-title {
-    font-size: 90px;
+    font-size: 260px;
+    margin-bottom: 70px;
   }
 }
 
@@ -131,10 +136,9 @@
 
   /* Extra-large screens */
   .hero-title {
-    font-size: 96px;
+    font-size: 160px;
   }
 }
-
 
 
 

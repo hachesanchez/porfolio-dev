@@ -16,6 +16,10 @@ const Navigation = () => {
 
     window.addEventListener('scroll', handleScroll)
 
+    const handleToggle = () => {
+        setExpanded(!expanded)
+    }
+
     const handleCloseNavbar = () => {
         setExpanded(false)
     }
@@ -25,7 +29,9 @@ const Navigation = () => {
         <Navbar
             expand="lg"
             className={`navbar-custom${scrolled ? ' navbar-scrolled' : ''}`}
-            fixed='top'>
+            fixed='top'
+            expanded={expanded}
+        >
 
             <Container>
 
@@ -33,13 +39,15 @@ const Navigation = () => {
 
                 <Navbar.Toggle
                     aria-controls="basic-navbar-nav"
-                    className={`toggle${scrolled ? '-scrolled' : ''}`} />
+                    className={`toggle${scrolled ? '-scrolled' : ''}`}
+                    onClick={handleToggle}
+                />
 
 
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
 
-                        <Nav.Link as={Link} to={'/'}>home</Nav.Link>
+                        {/* <Nav.Link as={Link} to={'/'}>home</Nav.Link> */}
                         <div className="nav-link">
                             <ScrollLink
                                 to="contact-section"
@@ -47,6 +55,7 @@ const Navigation = () => {
                                 duration={100}
                                 className="nav-link"
                                 style={{ cursor: 'pointer' }}
+                                onClick={handleCloseNavbar}
                             >
                                 contact
                             </ScrollLink>
