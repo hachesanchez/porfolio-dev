@@ -6,7 +6,55 @@
         "cvLink": "https://drive.google.com/file/d/1YmPbe4XKqypA8FAxprPJM4ihZrXfvslL/view?usp=sharing"
     },
     "projects": {
-          "mamachama": {
+        "delta": {
+            "title": "Delta Ecografía",
+            "intro": "Designing and developing the web application for Delta Ecografía, a prominent gynecologist center in Madrid specializing in 3D/4D ecography, using React.js",
+            "description": [
+                {
+                    "subtitle": "Efficient Development Workflow",
+                    "content": [
+                        "Leveraging Vite as the build tool ensures rapid development and optimized build times. This allows for quick iteration and testing, speeding up the development process."
+                    ]
+                },
+                {
+                    "subtitle": "Modern UI Components",
+                    "content": [
+                        "Utilizing React Bootstrap along with Bootstrap's comprehensive UI toolkit, your app offers sleek, responsive, and pre-styled components. This not only accelerates development but also ensures a consistent and visually appealing user interface across various devices and screen sizes."
+                    ]
+                },
+                {
+                    "subtitle": "Enhanced User Experience",
+                    "content": [
+                        "By incorporating React Spring for smooth animations and transitions, as well as Swiper for touch-enabled sliders and carousels, your app delivers an engaging and interactive user experience. These features elevate the visual appeal and usability of the app, keeping users engaged and immersed in the content."
+                    ]
+                },
+                {
+                    "subtitle": "Intuitive Navigation:",
+                    "content": [
+                        "With React Router facilitating client-side routing, users can navigate seamlessly between different views and pages within the app. This ensures a fluid and intuitive browsing experience, enhancing user satisfaction and retention."
+                    ]
+                },
+                {
+                    "subtitle": "Cloudinary for Media Management",
+                    "content": [
+                        "Integrating Cloudinary provides a robust solution for managing media assets such as images and videos. By offloading storage, optimization, and delivery tasks to Cloudinary's platform, your app benefits from improved performance, reduced bandwidth usage, and seamless media handling across various devices and resolutions."
+                    ]
+                },
+                {
+                    "subtitle": "Deployment with Netlify",
+                    "content": [
+                        "Utilizing Netlify for deployment simplifies the process of deploying and hosting your app in the cloud. With features like continuous deployment, automatic builds, and serverless functions, Netlify streamlines the deployment pipeline, allowing you to focus on building and refining your application. Additionally, Netlify's global CDN ensures fast and reliable content delivery to users worldwide, enhancing the overall user experience."
+                    ]
+                }
+            ],
+            "link": "https://delta-ecografia.netlify.app/",
+            "repository": "https://github.com/hachesanchez/delta/tree/main",
+            "technologies": [
+                "NodeJs",
+                "React"
+            ]
+        },
+        "mamachama": {
             "title": "Mamachama",
             "intro": "Designing and developing the web application for Mamachama Association using the MERN stack (MongoDB, Express.js, React.js, and Node.js)",
             "description": [
@@ -28,19 +76,19 @@
                         "Every screen, from the login form to the project control panel, was designed with the user experience across various devices in mind. Thanks to the implementation of responsive CSS and frameworks like Bootstrap, the platform is accessible from anywhere, at any time."
                     ]
                 },
-                  {
+                {
                     "subtitle": "Simplified Project Uploads",
                     "content": [
                         "I facilitated project uploads for association members with an intuitive and user-friendly form. From project descriptions to attachment uploads, each step was optimized to ensure a seamless and efficient experience."
                     ]
                 },
-                  {
+                {
                     "subtitle": "Efficient Deployment and Resource Management",
                     "content": [
                         "For server deployment, I opted for efficiency and scalability using the Fly.io platform, which provides a fast and secure execution environment for our applications. Additionally, for the client side, I chose Netlify for its continuous deployment capability and high-performance hosting of static sites."
                     ]
                 },
-                  {
+                {
                     "subtitle": "Robust Database and Media Storage",
                     "content": [
                         "The database is hosted on MongoDB Atlas, ensuring the robustness and scalability of our data. As for image and other multimedia storage, we rely on Cloudinary, a powerful platform that enables us to manage and optimize our visual resources efficiently."

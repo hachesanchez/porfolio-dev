@@ -6,7 +6,7 @@ import OdysseyPage from "../pages/OdysseyPage/OdysseyPage"
 import PorfolioPage from '../pages/PorfolioPage/PorfolioPage'
 import DevOpsPage from '../pages/DevOpsPage/DevOpsPage'
 import Mamachamapage from '../pages/MamachamaPage/Mamachamapage'
-
+import DeltaPage from '../pages/DeltaPage/DeltaPage'
 
 const AppRoutes = ({ data }) => {
 
@@ -21,6 +21,7 @@ const AppRoutes = ({ data }) => {
             <Route path='/porfolio' element={<PorfolioPage data={data.projects.helenadev} />} />
             <Route path='/devops' element={<DevOpsPage data={data.projects.devopsBootcamp} />} />
             <Route path='/mamachama' element={<Mamachamapage data={data.projects.mamachama} />} />
+            <Route path='/delta' element={<DeltaPage data={data.projects.delta} />} />
 
         </Routes>
     )

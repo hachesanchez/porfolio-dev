@@ -64,6 +64,15 @@ const Navigation = () => {
                         <NavDropdown title="projects" id="basic-nav-dropdown">
                             <NavDropdown.Item
                                 as={Link}
+                                to={'/delta'}
+                                className='dropdown-item'
+                                onClick={handleCloseNavbar}
+                            >
+                                Delta
+                            </NavDropdown.Item>
+                            <hr />
+                            <NavDropdown.Item
+                                as={Link}
                                 to={'/mamachama'}
                                 className='dropdown-item'
                                 onClick={handleCloseNavbar}

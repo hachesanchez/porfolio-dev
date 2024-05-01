@@ -6,6 +6,7 @@ import igafImg from "../../assets/images/_IGAF/Igaf-1.png"
 import porfolioImg from "../../assets/images/_Porfolio/Porfolio-1.png"
 import devopsImg from "../../assets/images/_DevOps/Devops-1.png"
 import mamachamaImg from '../../assets/images/_Mamachama/Mamachama-0.png'
+import deltaImg from '../../assets/images/_delta/delta-0.png'
 import { useState } from "react"
 import "./MyProjects.css"
 
@@ -13,7 +14,7 @@ import "./MyProjects.css"
 const MyProjects = ({ data }) => {
 
 
-  const { elMegafono, flatRentOdyssey, igaf, helenadev, devopsBootcamp, mamachama } = data
+  const { elMegafono, flatRentOdyssey, igaf, helenadev, devopsBootcamp, mamachama, delta } = data
   const [showFullContent, setShowFullContent] = useState(false)
   const toggleContent = () => {
     setShowFullContent(!showFullContent)
@@ -35,6 +36,13 @@ const MyProjects = ({ data }) => {
             className={`expandingContainer ${showFullContent ? "show" : ""}`}
           >
             <div className="MyProjectsCards">
+              <MyProjectsCards
+                title={delta.title}
+                imageSrc={deltaImg}
+                technologies={delta.technologies}
+                endpoint={"/delta"}
+                alt='Delta Ecografía'
+              />
               <MyProjectsCards
                 title={mamachama.title}
                 imageSrc={mamachamaImg}
