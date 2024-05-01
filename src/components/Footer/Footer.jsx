@@ -7,7 +7,7 @@ import "./Footer.css";
 const Footer = ({ onDropALineClick }) => {
 
   const cvLink =
-    "https://drive.google.com/file/d/1eLO3-fc2TiYc1CJRuF9caGS2LXDfGyFo/view?usp=sharing";
+    "https://drive.google.com/file/d/1aIepsLDUr99RB53fBiXodUr8We3y4zSp/view?usp=sharing";
 
   const estudioH = "https://estudio-h.es/";
 
