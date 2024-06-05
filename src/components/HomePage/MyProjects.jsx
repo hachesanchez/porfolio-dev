@@ -6,7 +6,7 @@ import igafImg from "../../assets/images/_IGAF/Igaf-1.png"
 import porfolioImg from "../../assets/images/_Porfolio/Porfolio-1.png"
 import devopsImg from "../../assets/images/_DevOps/Devops-1.png"
 import mamachamaImg from '../../assets/images/_Mamachama/Mamachama-0.png'
-import deltaImg from '../../assets/images/_delta/delta-0.png'
+import deltaImg from '../../assets/images/_Delta/Delta-0.png'
 import { useState } from "react"
 import "./MyProjects.css"
 
