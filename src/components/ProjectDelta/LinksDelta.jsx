@@ -17,7 +17,7 @@ const LinksDelta = ({ repository, link }) => {
               target='blank'
               rel="noopener noreferrer"
             >
-              {repository}
+              {link}
             </a>
           </div>
           <div className="Delta-repo">
