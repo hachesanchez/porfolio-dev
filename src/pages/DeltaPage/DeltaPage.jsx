@@ -3,7 +3,7 @@ import DescriptionDelta from '../../components/ProjectDelta/DescriptionDelta'
 import LinksDelta from '../../components/ProjectDelta/LinksDelta'
 import ImagesDelta from '../../components/ProjectDelta/ImagesDelta'
 import React from 'react'
-import './Deltapage.css'
+import './DeltaPage.css'
 
 function DeltaPage({ data: { title, intro, description, link, repository } }) {
 
